@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Span, Box, Text, Image } from "@quarkly/widgets";
+import { Theme, Link, Span, Text, Box, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -120,16 +120,7 @@ export default (() => {
 		<Section background="#050211" padding="60px 0 60px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Box position="relative">
-				<Box
-					quarkly-title="Background"
-					position="absolute"
-					width="100%"
-					height="100%"
-					background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 24.43%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
-					filter="blur(220px)"
-					transform="matrix(-1, 0.01, 0.01, 1, 0, 0)"
-				/>
-				<Stack margin="0px 0px 0px 0px" gap="20px">
+				<Stack margin="0px 0px 0px 0px" gap="20px" position="relative" z-index="9">
 					{"    "}
 					<StackItem width="100%" display="flex">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
@@ -162,6 +153,7 @@ export default (() => {
 							transition="background-color 0.2s ease 0s"
 							hover-background="#F0F0F5"
 							hover-color="#592CF0"
+							margin="0px 0px 10px 0px"
 						>
 							Get an invite{"\n\n"}
 						</Link>
@@ -169,40 +161,88 @@ export default (() => {
 					</StackItem>
 					{"    "}
 				</Stack>
-				<Stack margin="0px 0px 0px 0px" gap="20px">
+				<Stack
+					margin="0px 0px 0px 0px"
+					gap="20px"
+					position="relative"
+					z-index="9"
+					padding="35px 0px 145px 0px"
+				>
 					{"    "}
-					<StackItem width="35%" display="flex">
+					<Box
+						quarkly-title="Background-butterfly"
+						position="absolute"
+						width="100%"
+						height="100%"
+						background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 24.43%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
+						filter="blur(220px)"
+						transform="matrix(-1, 0.01, 0.01, 1, 0, 0)"
+					/>
+					<Box
+						position="absolute"
+						width="100%"
+						height="100%"
+						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/630px no-repeat scroll padding-box"
+						z-index="9"
+						quarkly-title="Bg-man"
+						transform="rotate(-0.04deg)"
+					/>
+					<Box
+						position="absolute"
+						width="100%"
+						height="100%"
+						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/auto no-repeat scroll padding-box"
+						z-index="1"
+						filter="blur(35px)"
+						padding="0px 0px 0px 0px"
+						quarkly-title="Bg-tv"
+					/>
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group335262.png?v=2021-03-02T20:26:07.909Z" />
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="30%" display="flex">
+					<StackItem width="30%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="35%" display="flex">
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201177.png?v=2021-03-02T20:29:15.696Z" />
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="35%" display="flex">
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201171.png?v=2021-03-02T20:40:39.210Z" margin="0px 30px 0px 0px" />
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="30%" display="flex">
+					<StackItem width="30%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						{"        "}{"    "}
 					</StackItem>
-					<StackItem width="35%" display="flex">
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
-						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201177.png?v=2021-03-02T20:29:15.696Z" />
+						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201166.png?v=2021-03-02T20:56:48.661Z" margin="0px 0px 0px 30px" />
+						{"        "}{"    "}
+					</StackItem>
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
+						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
+						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201174.png?v=2021-03-02T20:58:34.921Z" margin="0px 0px 0px 0px" />
+						{"        "}{"    "}
+					</StackItem>
+					<StackItem width="30%" display="flex" position="relative" z-index="9">
+						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
+						{"        "}{"    "}
+					</StackItem>
+					<StackItem width="35%" display="flex" position="relative" z-index="9">
+						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
+						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201178.png?v=2021-03-02T20:59:25.930Z" margin="0px 0px 0px 0px" />
 						{"        "}{"    "}
 					</StackItem>
 					{"    "}
 				</Stack>
 			</Box>
-			<Components.Video border-radius="10px" width="80%">
+			<Components.Video border-radius="10px" width="80%" margin="35px 0px 0px 0px">
 				<Override slot="Button" background="#592CF0" />
 			</Components.Video>
 		</Section>
