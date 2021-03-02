@@ -29,7 +29,7 @@ export default (() => {
 				<StackItem width="33.3333%" display="flex">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
-					<Link href="#" font="750 22px/29px 'AvenirNextCyrRegular'" color="#F0F0F5" text-decoration-line="initial">
+					<Link href="#" font="750 22px/29px 'AvenirNextCyrRegular', sans-serif" color="#F0F0F5" text-decoration-line="initial">
 						stream{" "}
 						<Span color="#592CF0">
 							gem
@@ -42,7 +42,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Link
 						href="#"
-						font="450 16px/140% 'AvenirNextCyrRegular'"
+						font="450 16px/140% 'AvenirNextCyrRegular', sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						opacity="0.9"
@@ -52,7 +52,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						font="450 16px/140% 'AvenirNextCyrRegular'"
+						font="450 16px/140% 'AvenirNextCyrRegular', sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						opacity="0.9"
@@ -62,7 +62,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#"
-						font="450 16px/140% 'AvenirNextCyrRegular'"
+						font="450 16px/140% 'AvenirNextCyrRegular', sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						opacity="0.9"
@@ -77,7 +77,7 @@ export default (() => {
 					{"        "}
 					<Link
 						href="#"
-						font="450 16px/22.4px 'AvenirNextCyrRegular'"
+						font="450 16px/22.4px 'AvenirNextCyrRegular', sans-serif"
 						color="#F0F0F5"
 						text-decoration-line="initial"
 						padding="9px 24px 8px 24px"
@@ -97,14 +97,14 @@ export default (() => {
 				{"    "}
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-					<Text color="#ffffff" opacity="0.9" font="750 72px/67.68px 'AvenirNextCyrRegular'" margin="0px 0px 0px 0px">
+					<Text color="#ffffff" opacity="0.9" font="750 72px/67.68px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 0px 0px">
 						Full stream monetization{"\n\n"}
 					</Text>
 					{"        "}{"    "}
 				</StackItem>
 				<StackItem width="100%" display="flex">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-					<Text color="#6C6B7D" opacity="0.9" font="400 22px/30.8px 'AvenirNextCyrRegular'" margin="0px 0px 0px 0px">
+					<Text color="#6C6B7D" opacity="0.9" font="400 22px/30.8px 'AvenirNextCyrRegular', sans-serif" margin="0px 0px 0px 0px">
 						Make money streaming. Improve the quality and interactivity{" "}
 						<br />
 						of your streams with widgets, polls and other features{"\n\n"}
