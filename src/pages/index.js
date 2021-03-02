@@ -29,7 +29,14 @@ export default (() => {
 				<StackItem width="33.3333%" display="flex">
 					<Override slot="StackItemContent" align-items="center" />
 					{"        "}
-					<Link href="#" font="600 22px/29px --fontFamily-googleInter" color="#F0F0F5" text-decoration-line="initial">
+					<Link
+						href="#"
+						font="600 22px/29px --fontFamily-googleInter"
+						color="#F0F0F5"
+						text-decoration-line="initial"
+						transition="color 0.2s ease 0s"
+						hover-color="#592CF0"
+					>
 						stream{" "}
 						<Span
 							color="#592CF0"
@@ -56,6 +63,8 @@ export default (() => {
 						color="#F0F0F5"
 						opacity="0.9"
 						margin="0px 20px 0px 20px"
+						transition="color 0.2s ease 0s"
+						hover-color="#592CF0"
 					>
 						Viewers{"\n\n"}
 					</Link>
@@ -66,6 +75,8 @@ export default (() => {
 						color="#F0F0F5"
 						opacity="0.9"
 						margin="0px 20px 0px 20px"
+						transition="color 0.2s ease 0s"
+						hover-color="#592CF0"
 					>
 						Streamers{"\n\n"}
 					</Link>
@@ -76,6 +87,8 @@ export default (() => {
 						color="#F0F0F5"
 						opacity="0.9"
 						margin="0px 20px 0px 20px"
+						transition="color 0.2s ease 0s"
+						hover-color="#592CF0"
 					>
 						Advertisers{"\n\n"}
 					</Link>
@@ -92,6 +105,9 @@ export default (() => {
 						padding="9px 24px 8px 24px"
 						background="#592CF0"
 						border-radius="60px"
+						transition="background-color 0.2s ease 0s"
+						hover-background="#F0F0F5"
+						hover-color="#592CF0"
 					>
 						Go to App{"\n\n"}
 					</Link>
@@ -100,7 +116,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211">
+		<Section background="#050211" padding="48px 0 48px 0">
 			<Override slot="SectionContent" max-width="1100px" />
 			<Stack margin="0px 0px 0px 0px" gap="20px">
 				{"    "}
@@ -112,12 +128,48 @@ export default (() => {
 					{"        "}{"    "}
 				</StackItem>
 				<StackItem width="100%" display="flex">
-					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-					<Text color="#6C6B7D" opacity="0.9" font="400 22px/30.8px --fontFamily-googleInter" margin="0px 0px 0px 0px">
+					<Override
+						slot="StackItemContent"
+						align-items="center"
+						justify-content="center"
+						text-align="center"
+						flex-direction="column"
+					/>
+					<Text color="#6C6B7D" opacity="0.9" font="400 22px/30.8px --fontFamily-googleInter" margin="0px 0px 36px 0px">
 						Make money streaming. Improve the quality and interactivity{" "}
 						<br />
 						of your streams with widgets, polls and other features{"\n\n"}
 					</Text>
+					<Link
+						href="#"
+						font="400 20px/28px --fontFamily-googleInter"
+						color="#F0F0F5"
+						text-decoration-line="initial"
+						padding="12px 30px 12px 30px"
+						background="#592CF0"
+						border-radius="60px"
+						transition="background-color 0.2s ease 0s"
+						hover-background="#F0F0F5"
+						hover-color="#592CF0"
+					>
+						Get an invite{"\n\n"}
+					</Link>
+					{"        "}{"    "}
+				</StackItem>
+				{"    "}
+			</Stack>
+			<Stack margin="0px 0px 0px 0px" gap="20px">
+				{"    "}
+				<StackItem width="40%" display="flex">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="20%" display="flex">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="40%" display="flex">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					{"        "}{"    "}
 				</StackItem>
 				{"    "}
