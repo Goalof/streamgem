@@ -253,7 +253,7 @@ export default (() => {
 				</Stack>
 			</Box>
 			<Components.Video border-radius="10px" width="80%" margin="35px 0px 0px 0px">
-				<Override slot="Button" background="#592CF0" hover-background="#1D0C37" />
+				<Override slot="Button" background="#592CF0" />
 			</Components.Video>
 		</Section>
 		<Section background="#050211" padding="60px 0 60px 0">
@@ -620,7 +620,7 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 						flex-direction="column"
-						padding="60px 0px 0px 0px"
+						padding="60px 10px 0px 0px"
 					/>
 					<Text
 						color="#592CF0"
@@ -658,7 +658,7 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="center"
 						flex-direction="column"
-						padding="0px 0px 0px 0px"
+						padding="0px 20px 0px 0px"
 					/>
 					<Text
 						color="#592CF0"
@@ -845,7 +845,7 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="center"
 						flex-direction="column"
-						padding="0px 0px 0px 0px"
+						padding="0px 20px 0px 0px"
 					/>
 					<Text
 						color="#592CF0"
@@ -902,7 +902,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 60px 0">
+		<Section background="#050211" padding="90px 0 60px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -912,36 +912,11 @@ export default (() => {
 				width="100%"
 			>
 				{"    "}
-				<StackItem width="40%" display="flex">
-					<Override
-						slot="StackItemContent"
-						align-items="flex-start"
-						justify-content="center"
-						flex-direction="column"
-						padding="0px 0px 0px 0px"
-					/>
-					<Text
-						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
-						margin="0px 0px 23px 0px"
-						letter-spacing="3px"
-						text-transform="uppercase"
-					>
-						Raid Exchange{"\n\n"}
-					</Text>
-					<Text color="#ffffff" opacity="0.9" font="500 48px/48px --fontFamily-googleInter" margin="0px 0px 24px 0px">
-						Sell and buy raids{"\n\n"}
-					</Text>
-					<Text color="#6C6B7D" opacity="0.9" font="400 20px/28px --fontFamily-googleInter" margin="0px 0px 0px 0px">
-						Our system will allow you to make fair and safe transactions{"\n\n"}
-					</Text>
-					{"        "}{"    "}
-				</StackItem>
 				<StackItem width="60%" display="flex">
 					<Override
 						slot="StackItemContent"
-						align-items="flex-end"
-						justify-content="center"
+						align-items="flex-start"
+						justify-content="flex-end"
 						text-align="center"
 						position="relative"
 						flex-direction="column"
@@ -953,63 +928,81 @@ export default (() => {
 						position="relative"
 						z-index="2"
 					>
-						<Box
-							background="linear-gradient(86.84deg, rgba(252, 228, 82, 0.61) 30.4%, rgba(248, 166, 91, 0.562344) 36.31%, rgba(196, 196, 196, 0) 106.11%);"
-							filter="blur(94px)"
-							width="30%"
-							height="40%"
+						<Box display="flex">
+							<Image
+								src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/photo-1568602471122-7832951cc4c5.png?v=2021-03-04T10:54:01.139Z"
+								bottom="80px"
+								left="0px"
+								right="auto"
+								top="auto"
+							/>
+							<Image
+								src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/photo-1568602471122-7832951cc4%D1%8B.png?v=2021-03-04T10:56:50.868Z"
+								bottom="80px"
+								left="0px"
+								right="auto"
+								top="auto"
+							/>
+						</Box>
+						<Box display="flex">
+							<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Avatar%D1%8B%D1%84%D0%B2%D1%84%D1%8B.png?v=2021-03-04T10:57:26.341Z" width="100%" position="relative" left="50px" />
+							<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/asdsaxzc.png?v=2021-03-04T10:53:46.469Z" width="100%" position="relative" left="50px" />
+						</Box>
+						<Image
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%2011@4x.png?v=2021-03-04T00:16:37.637Z"
 							position="absolute"
-							z-index="4"
+							bottom="-62px"
 							top="auto"
-							left="24px"
-							right="auto"
-							transform="rotate(-117.91deg)"
-							bottom="0px"
-						/>
-						<Box
-							background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
-							filter="blur(220px)"
-							width="100%"
-							height="70%"
-							position="absolute"
-							z-index="3"
-							top="0px"
 							left="auto"
-							right="auto"
+							right="100px"
+						/>
+						<Image
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%209@4x.png?v=2021-03-04T00:18:11.672Z"
+							position="absolute"
+							top="110px"
 							bottom="auto"
-						/>
-						<Box
-							width="100%"
-							height="60%"
-							position="absolute"
-							top="auto"
-							left="-47px"
-							right="auto"
-							bottom="0px"
-							transform="rotate(-180deg)"
-							z-index="2"
-							background="linear-gradient(180deg, #04010F 24.55%, rgba(4, 1, 15, 0) 100%)"
-						/>
-						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201201.png?v=2021-03-03T23:27:49.023Z" position="relative" left="-47px" />
-						<Image
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335246.png?v=2021-03-03T23:29:10.456Z"
-							position="absolute"
-							right="0px"
-							left="auto"
-							bottom="0px"
-							top="auto"
-							z-index="4"
-						/>
-						<Image
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.png?v=2021-03-03T23:29:00.567Z"
-							position="absolute"
-							bottom="-30px"
-							left="30px"
-							right="auto"
-							top="auto"
-							z-index="5"
+							right="100px"
+							left="7px"
 						/>
 					</Box>
+					<Box
+						background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
+						filter="blur(220px)"
+						width="80%"
+						height="60%"
+						position="absolute"
+						z-index="7"
+						top="auto"
+						left="auto"
+						right="auto"
+						bottom="100px"
+						transform="rotate(14.18deg)"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="40%" display="flex">
+					<Override
+						slot="StackItemContent"
+						align-items="flex-start"
+						justify-content="center"
+						flex-direction="column"
+						padding="0px 20px 0px 0px"
+					/>
+					<Text
+						color="#592CF0"
+						font="400 14px/18px --fontFamily-googleInter"
+						margin="-10px 0px 23px 0px"
+						letter-spacing="3px"
+						text-transform="uppercase"
+					>
+						Play with the audience{"\n\n"}
+					</Text>
+					<Text color="#ffffff" opacity="0.9" font="500 48px/48px --fontFamily-googleInter" margin="0px 0px 24px 0px">
+						Teams{"\n\n"}
+					</Text>
+					<Text color="#6C6B7D" opacity="0.9" font="400 20px/28px --fontFamily-googleInter" margin="0px 0px 0px 0px">
+						Create temporary or permanent teams and collect donations from viewers into a common pot{"\n\n"}
+					</Text>
 					{"        "}{"    "}
 				</StackItem>
 				{"    "}
@@ -1105,6 +1098,7 @@ export default (() => {
 							padding="6px 30px 12px 2px"
 							margin="0px 14px 0px 0px"
 							type="text"
+							color="#ffffff"
 						/>
 						<Input
 							name="email"
@@ -1119,6 +1113,7 @@ export default (() => {
 							padding="6px 30px 12px 2px"
 							margin="0px 14px 0px 14px"
 							type="email"
+							color="#ffffff"
 						/>
 						<Button
 							background="#FFFFFF"
