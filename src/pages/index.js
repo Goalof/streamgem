@@ -253,7 +253,7 @@ export default (() => {
 				</Stack>
 			</Box>
 			<Components.Video border-radius="10px" width="80%" margin="35px 0px 0px 0px">
-				<Override slot="Button" background="#592CF0" />
+				<Override slot="Button" background="#592CF0" hover-background="#1D0C37" />
 			</Components.Video>
 		</Section>
 		<Section background="#050211" padding="60px 0 60px 0">
