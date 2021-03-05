@@ -1134,7 +1134,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 60px 0" md-padding="30px 0 30px 0">
+		<Section background="#050211" padding="60px 0 40px 0" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -1182,7 +1182,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="90px 0 60px 0" md-padding="60px 0 60px 0">
+		<Section background="#050211" padding="60px 0 60px 0" md-padding="60px 0 60px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
