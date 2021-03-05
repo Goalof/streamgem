@@ -303,7 +303,7 @@ export default (() => {
 				min-height="590px"
 				md-margin="0px 0px 0px 0px"
 			>
-				<Override slot="Button" background="#592CF0" />
+				<Override slot="Button" background="#592CF0" cursor="pointer" />
 			</Components.Video>
 		</Section>
 		<Section background="#050211" padding="60px 0 60px 0" sm-padding="60px 0 30px 0">
