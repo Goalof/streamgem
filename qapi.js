@@ -26,7 +26,9 @@ export default {
 	"mode": "production",
 	"projectType": "gatsby",
 	"site": {
-		"styles": {},
+		"styles": {
+			"overflow-x": "hidden"
+		},
 		"seo": {
 			"favicon_32px": "https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z",
