@@ -172,31 +172,31 @@ export default (() => {
 					</StackItem>
 					{"    "}
 				</Stack>
+				<Box
+					quarkly-title="Background-butterfly"
+					position="absolute"
+					width="100%"
+					height="100%"
+					background="url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/cover no-repeat"
+					z-index="5"
+					top="30px"
+				/>
 				<Stack
 					margin="0px 0px 0px 0px"
 					gap="20px"
 					position="relative"
-					z-index="1"
+					z-index="9"
 					padding="35px 0px 145px 0px"
 					lg-justify-content="center"
 					md-padding="0px 0px 130px 0px"
 				>
 					{"    "}
 					<Box
-						quarkly-title="Background-butterfly"
-						position="absolute"
-						width="100%"
-						height="100%"
-						background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 23.3%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
-						filter="blur(220px)"
-						z-index="2"
-					/>
-					<Box
 						position="absolute"
 						width="100%"
 						height="100%"
 						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/630px no-repeat scroll padding-box"
-						z-index="9"
+						z-index="6"
 						quarkly-title="Bg-man"
 						lg-width="80%"
 						lg-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/550px no-repeat scroll padding-box"
@@ -991,18 +991,6 @@ export default (() => {
 						position="relative"
 						z-index="2"
 					>
-						<Box
-							background="linear-gradient(86.84deg, rgba(252, 228, 82, 0.61) 30.4%, rgba(248, 166, 91, 0.562344) 36.31%, rgba(196, 196, 196, 0) 106.11%);"
-							filter="blur(94px)"
-							width="30%"
-							height="40%"
-							position="absolute"
-							z-index="4"
-							top="auto"
-							left="24px"
-							right="auto"
-							bottom="0px"
-						/>
 						<Box
 							background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
 							filter="blur(220px)"
