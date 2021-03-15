@@ -56,14 +56,13 @@ export default (() => {
 						>
 							gem
 						</Span>
-						{"\n\n"}
 					</Link>
 					{"    "}
 				</StackItem>
 				<StackItem width="33.3333%" display="flex" md-display="none">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Link
-						href="#"
+						href="#Viewers"
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
@@ -72,10 +71,10 @@ export default (() => {
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
 					>
-						Viewers{"\n\n"}
+						Viewers
 					</Link>
 					<Link
-						href="#"
+						href="#Streamers"
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
@@ -84,10 +83,10 @@ export default (() => {
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
 					>
-						Streamers{"\n\n"}
+						Streamers
 					</Link>
 					<Link
-						href="#"
+						href="#Advertisers"
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
@@ -96,9 +95,9 @@ export default (() => {
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
 					>
-						Advertisers{"\n\n"}
+						Advertisers
 					</Link>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="33.3333%" display="flex" md-width="50%">
 					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" />
@@ -115,7 +114,7 @@ export default (() => {
 						hover-background="#F0F0F5"
 						hover-color="#592CF0"
 					>
-						Go to App{"\n\n"}
+						Go to App
 					</Link>
 					{"    "}
 				</StackItem>
@@ -137,9 +136,9 @@ export default (() => {
 							lg-font="650 64px/60px --fontFamily-googleInter"
 							md-font="650 50px/47px --fontFamily-googleInter"
 						>
-							Full stream monetization{"\n\n"}
+							Full stream monetization
 						</Text>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="100%" display="flex" position="relative" z-index="9">
 						<Override
@@ -160,7 +159,7 @@ export default (() => {
 						>
 							Make money streaming. Improve the quality and interactivity{" "}
 							<br />
-							of your streams with widgets, polls and other features{"\n\n"}
+							of your streams with widgets, polls and other features
 						</Text>
 						<Link
 							href="#"
@@ -177,9 +176,9 @@ export default (() => {
 							position="relative"
 							z-index="9"
 						>
-							Get an invite{"\n\n"}
+							Get an invite
 						</Link>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					{"    "}
 				</Stack>
@@ -198,7 +197,7 @@ export default (() => {
 						position="absolute"
 						width="100%"
 						height="100%"
-						background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 24.43%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
+						background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 23.3%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
 						filter="blur(220px)"
 						transform="matrix(-1, 0.01, 0.01, 1, 0, 0)"
 						z-index="2"
@@ -214,6 +213,7 @@ export default (() => {
 						lg-width="80%"
 						lg-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/550px no-repeat scroll padding-box"
 						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/440px no-repeat scroll padding-box"
+						sm-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/330px no-repeat scroll padding-box"
 					/>
 					<Box
 						position="absolute"
@@ -229,16 +229,16 @@ export default (() => {
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group335262.png?v=2021-03-02T20:26:07.909Z" transition="transform 0.2s ease 0s" hover-transform="translateX(-10px)" md-max-height="40px" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="30%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201177.png?v=2021-03-02T20:29:15.696Z" transition="transform 0.2s ease 0s" hover-transform="translateX(10px)" md-max-height="40px" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
@@ -249,11 +249,11 @@ export default (() => {
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="30%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
@@ -264,7 +264,7 @@ export default (() => {
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
@@ -275,11 +275,11 @@ export default (() => {
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="30%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					<StackItem width="35%" display="flex" position="relative" z-index="9">
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
@@ -290,7 +290,7 @@ export default (() => {
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
 						/>
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 					{"    "}
 				</Stack>
@@ -326,9 +326,9 @@ export default (() => {
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
 					>
-						Join, it's easy{" \n\n"}
+						Join, it's easy{" "}
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="100%"
@@ -355,9 +355,9 @@ export default (() => {
 						z-index="9"
 						md-font="400 20px/26px --fontFamily-googleInter"
 					>
-						Set up your system in 3 steps{"\n\n"}
+						Set up your system in 3 steps
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -391,7 +391,7 @@ export default (() => {
 						md-right="auto"
 					/>
 					<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%208@4x.png?v=2021-03-03T20:39:03.380Z" position="relative" z-index="4" margin="0px 0px 0px 0px" />
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -427,7 +427,7 @@ export default (() => {
 						md-right="auto"
 					/>
 					<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@4x.png?v=2021-03-03T20:52:20.454Z" position="relative" z-index="4" />
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -463,7 +463,7 @@ export default (() => {
 						md-right="auto"
 					/>
 					<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%2011@4x.png?v=2021-03-03T20:52:28.284Z" position="relative" z-index="4" left="0px" />
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="100%"
@@ -488,7 +488,7 @@ export default (() => {
 						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z" margin="0px 0px 0px 0px" position="relative" left="7px" />
 					</Box>
 					<Hr width="100%" background="linear-gradient(90deg, rgba(42, 13, 48, 0) 0%, #280D31 10.61%, #19103D 89.56%, rgba(23, 16, 62, 0) 100%)" border-color="rgba(0, 0, 0, 0)" />
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -510,9 +510,9 @@ export default (() => {
 					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Register and setting
 						<br />
-						up tools{"\n\n"}
+						up tools
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -534,9 +534,9 @@ export default (() => {
 					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Add a link to the stream
 						<br />
-						gem to your bs{"\n\n"}
+						gem to your bs
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="33.333%"
@@ -558,14 +558,14 @@ export default (() => {
 					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						You start getting your
 						<br />
-						hard-earned{"\n\n"}
+						hard-earned
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 60px 0" lg-padding="60px 0 40px 0">
+		<Section id="Viewers" background="#050211" padding="60px 0 60px 0" lg-padding="60px 0 40px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -585,9 +585,9 @@ export default (() => {
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
 					>
-						Viewers{"\n\n"}
+						Viewers
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="100%" display="flex" position="relative" z-index="9">
 					<Override
@@ -606,9 +606,9 @@ export default (() => {
 						margin="4px 0px 24px 0px"
 						md-font="400 18px/23px --fontFamily-googleInter"
 					>
-						Monetize your audience{"\n\n"}
+						Monetize your audience
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="100%"
@@ -646,7 +646,7 @@ export default (() => {
 						>
 							The most favorable conditions
 							<br />
-							for donations — no percent{"\n\n"}
+							for donations — no percent
 						</Text>
 						<Text
 							color="#6C6B7D"
@@ -663,13 +663,19 @@ export default (() => {
 								border-color="rgba(255, 255, 255, 0.25)"
 								border-radius="50%"
 								padding="7px 8px 7px 8px"
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
 							>
 								$1
 							</Span>
-							{"\n\n"}
 						</Text>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="100%" margin="-227px 0px 0px 0px">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
@@ -775,7 +781,7 @@ export default (() => {
 						right="auto"
 						bottom="auto"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -795,7 +801,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Everything in sight{"\n\n"}
+						Everything in sight
 					</Text>
 					<Text
 						color="#ffffff"
@@ -806,7 +812,7 @@ export default (() => {
 						md-font="500 36px/36px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Display the stream{"\n\n"}
+						Display the stream
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -818,9 +824,9 @@ export default (() => {
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
-						notifications of donations, subscriptions, messages and other inactive tools to connect with the audience{"\n\n"}
+						notifications of donations, subscriptions, messages and other inactive tools to connect with the audience
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -852,7 +858,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Heading{"\n\n"}
+						Heading
 					</Text>
 					<Text
 						color="#ffffff"
@@ -864,7 +870,7 @@ export default (() => {
 						sm-text-align="center"
 						md-text-align="center"
 					>
-						Regular support{"\n\n"}
+						Regular support
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -876,7 +882,7 @@ export default (() => {
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
-						Give your viewers the opportunity to support you regularly{"\n\n"}
+						Give your viewers the opportunity to support you regularly
 					</Text>
 					<Link
 						href="#"
@@ -894,9 +900,9 @@ export default (() => {
 						z-index="9"
 						md-margin="0px 0px 20px 0px"
 					>
-						Get an invite{"\n\n"}
+						Get an invite
 					</Link>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="60%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -975,7 +981,6 @@ export default (() => {
 							md-bottom="40px"
 						/>
 						<Image
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.png?v=2021-03-03T23:29:00.567Z"
 							position="absolute"
 							bottom="-30px"
 							left="30px"
@@ -985,9 +990,10 @@ export default (() => {
 							lg-max-height="137px"
 							md-max-width="120px"
 							md-bottom="0px"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.png?v=2021-03-03T23:29:00.567Z"
 						/>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1028,7 +1034,6 @@ export default (() => {
 					>
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335247.png?v=2021-03-03T23:49:06.158Z"
-							width="100%"
 							position="relative"
 							left="50px"
 							lg-left="15px"
@@ -1085,7 +1090,7 @@ export default (() => {
 						bottom="100px"
 						transform="rotate(14.18deg)"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -1104,7 +1109,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Play with the audience{"\n\n"}
+						Play with the audience
 					</Text>
 					<Text
 						color="#ffffff"
@@ -1115,7 +1120,7 @@ export default (() => {
 						md-font="500 36px/36px --fontFamily-googleInter"
 						md-text-align="center"
 					>
-						Race with your admirers{"\n\n"}
+						Race with your admirers
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -1127,14 +1132,14 @@ export default (() => {
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
-						Take your viewers to the party and teach them to finally play{"\n\n"}
+						Take your viewers to the party and teach them to finally play
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 40px 0" md-padding="30px 0 30px 0">
+		<Section id="Streamers" background="#050211" padding="60px 0 40px 0" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -1154,9 +1159,9 @@ export default (() => {
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
 					>
-						Streamers{"\n\n"}
+						Streamers
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="100%" display="flex" position="relative" z-index="9">
 					<Override
@@ -1175,9 +1180,9 @@ export default (() => {
 						margin="4px 0px 24px 0px"
 						md-font="400 18px/23px --fontFamily-googleInter"
 					>
-						Monetize relationships with other streamers{"\n\n"}
+						Monetize relationships with other streamers
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1329,7 +1334,7 @@ export default (() => {
 						transform="rotate(-33.72deg)"
 						right="auto"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -1349,7 +1354,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Play with the audience{"\n\n"}
+						Play with the audience
 					</Text>
 					<Text
 						color="#ffffff"
@@ -1360,7 +1365,7 @@ export default (() => {
 						md-font="500 36px/36px --fontFamily-googleInter"
 						md-text-align="center"
 					>
-						Teams{"\n\n"}
+						Teams
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -1372,14 +1377,14 @@ export default (() => {
 						md-text-align="center"
 						md-margin="0px 0px 30px 0px"
 					>
-						Create temporary or permanent teams and collect donations from viewers into a common pot{"\n\n"}
+						Create temporary or permanent teams and collect donations from viewers into a common pot
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 60px 0" lg-padding="30px 0 30px 0">
+		<Section id="Advertisers" background="#050211" padding="60px 0 60px 0" lg-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -1406,9 +1411,9 @@ export default (() => {
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
 					>
-						Advertisers{"\n\n"}
+						Advertisers
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="100%" display="flex" position="relative" z-index="9">
 					<Override
@@ -1431,9 +1436,9 @@ export default (() => {
 					>
 						Our system allows you to automate interactions with advertisers,
 						<br />
-						so its size is not important.{"\n\n"}
+						so its size is not important.
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1471,7 +1476,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Banner advertising{"\n\n"}
+						Banner advertising
 					</Text>
 					<Text
 						color="#ffffff"
@@ -1482,7 +1487,7 @@ export default (() => {
 						md-font="500 36px/36px --fontFamily-googleInter"
 						md-text-align="center"
 					>
-						Show advertisers banner{"\n\n"}
+						Show advertisers banner
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -1495,9 +1500,9 @@ export default (() => {
 						md-margin="0px 0px 30px 0px"
 						md-text-align="center"
 					>
-						Directly on the stream, during a break or on the donation page{"\n\n"}
+						Directly on the stream, during a break or on the donation page
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="60%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -1546,13 +1551,13 @@ export default (() => {
 						<Box
 							background="rgba(255, 255, 255, 0.02)"
 							width="80%"
-							height="70%"
+							height="287.391px"
 							position="absolute"
 							z-index="3"
 							top="60px"
 							left="auto"
 							right="-150px"
-							bottom="auto"
+							bottom="64.6094px"
 							border-radius="22px"
 						/>
 						<Image
@@ -1588,7 +1593,7 @@ export default (() => {
 							lg-right="-30px"
 						/>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1715,7 +1720,7 @@ export default (() => {
 							lg-top="-60px"
 						/>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -1735,7 +1740,7 @@ export default (() => {
 						letter-spacing="3px"
 						text-transform="uppercase"
 					>
-						Native advertising{"\n\n"}
+						Native advertising
 					</Text>
 					<Text
 						color="#ffffff"
@@ -1746,7 +1751,7 @@ export default (() => {
 						md-font="500 36px/36px --fontFamily-googleInter"
 						md-text-align="center"
 					>
-						Fulfill advertiser orders{"\n\n"}
+						Fulfill advertiser orders
 					</Text>
 					<Text
 						color="#6C6B7D"
@@ -1758,9 +1763,9 @@ export default (() => {
 						md-font="400 20px/27px --fontFamily-googleInter"
 						md-margin="0px 0px 60px 0px"
 					>
-						Choose orders of interest to you, follow the instructions and get rewards.{"\n\n"}
+						Choose orders of interest to you, follow the instructions and get rewards.
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"    "}
 			</Stack>
@@ -1828,7 +1833,7 @@ export default (() => {
 						background="#FF0743"
 						border-radius="6px"
 					>
-						Coming soon{"\n\n"}
+						Coming soon
 					</Text>
 					<Box>
 						<Text
@@ -1839,10 +1844,10 @@ export default (() => {
 							lg-font="650 64px/60px --fontFamily-googleInter"
 							md-font="650 50px/60px --fontFamily-googleInter"
 						>
-							Join alpha testing{"\n\n"}
+							Join alpha testing
 						</Text>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="100%" margin="0px 0px 0px 0px">
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
@@ -1941,7 +1946,7 @@ export default (() => {
 						margin="0px 24px 0px 0px"
 						lg-order="1"
 					>
-						© 2021 stream gem — full stream monetization{"\n\n"}
+						© 2021 stream gem — full stream monetization
 					</Text>
 					<Box lg-margin="0px 0px 30px 0px">
 						<Link
@@ -1976,7 +1981,7 @@ export default (() => {
 							hover-color="#ffffff"
 							margin="0px 12px 0px 12px"
 						>
-							Help{"\n\n"}
+							Help
 						</Link>
 					</Box>
 					{"    "}
