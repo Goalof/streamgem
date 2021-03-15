@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import YouTube from 'react-youtube';
 import { Box, Icon } from '@quarkly/widgets';
 import { useOverrides } from '@quarkly/components';
@@ -8,12 +8,26 @@ const overrides = {
 		kind: 'Box'
 	},
 	'Button': {
-		kind: 'Icon'
+		kind: 'Box',
+		"props": {
+			"width": "90px",
+			"height": "90px"
+		}
+	},
+	'Button Icon': {
+		kind: 'Icon',
+		"props": {
+			"margin": "0px -6px 0px 0px",
+			"size": "28px"
+		}
 	}
 };
 
-const Player = ({ ...props
+const YouTubePlayer = ({
+	videoId,
+	...props
 }) => {
+	const [isReady, setReady] = useState(false);
 	const [isPlay, setPlay] = useState(false);
 	const playerRef = useRef(null);
 	const {
@@ -21,44 +35,81 @@ const Player = ({ ...props
 		rest
 	} = useOverrides(props, overrides, {});
 
-	const handlerClick = () => {
+	const playVideo = () => {
 		setPlay(true);
 		playerRef.current.internalPlayer.playVideo();
 	};
 
-	return <Box position="relative" {...rest}>
-		      
-		<YouTube videoId="tPoRAL7Lm1M" opts={{
-			width: '100%',
-			height: '590px',
-			playerVars: {
-				autoplay: 0
-			}
-		}} ref={playerRef} />
-		      
-		<Icon
+	const onReady = ({
+		target
+	}) => {
+		const checkIframe = value => value instanceof HTMLElement && value.tagName === 'IFRAME';
+
+		const iframe = Object.values(target).find(value => checkIframe(value));
+		if (!iframe) return;
+		iframe.style.position = 'absolute';
+		setReady(true);
+	};
+
+	return <Box
+		padding-top="56.25%"
+		min-height="0"
+		height="0"
+		position="relative"
+		transition="opacity 0s initial .5s"
+		opacity={isReady ? '1' : '0'}
+		{...rest}
+	>
+		<Box
+			top="0"
+			left="0"
+			width="100%"
+			height="100%"
+			position="absolute"
+		>
+			<YouTube ref={playerRef} videoId={videoId} opts={{
+				width: '100%',
+				height: '100%',
+				playerVars: {
+					autoplay: 0
+				}
+			}} onReady={onReady} />
+		</Box>
+		<Box
 			top="calc(50% - 50px)"
 			left="calc(50% - 50px)"
 			width="100px"
 			height="100px"
-			background-color="#8C30F5"
+			background-color="--primary"
 			border-radius="100%"
-			position="absolute"
-			display={isPlay ? 'none' : 'flex'}
-			size="22px"
-			category="fa"
-			icon={FaPlay}
-			color="#FFFFFF"
 			align-items="center"
 			justify-content="center"
+			position="absolute"
+			display={isPlay ? 'none' : 'flex'}
 			{...override('Button')}
-			onClick={handlerClick}
-		/>
-		    
+			onClick={playVideo}
+		>
+			<Icon
+				size="22px"
+				category="fa"
+				icon={FaPlay}
+				color="#FFFFFF"
+				{...override('Button Icon')}
+			/>
+		</Box>
 	</Box>;
 };
 
-export default Object.assign(Player, {
-	title: 'CustomCursor',
+export default Object.assign(YouTubePlayer, {
+	title: 'YouTubePlayer',
+	propInfo: {
+		videoId: {
+			control: 'input',
+			weight: 1
+		}
+	},
+	defaultProps: {
+		videoId: 'Rzgdz1mbLbE'
+	},
 	overrides
 });

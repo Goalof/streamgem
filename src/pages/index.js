@@ -226,21 +226,57 @@ export default (() => {
 						quarkly-title="Bg-tv"
 						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/400px no-repeat scroll padding-box"
 					/>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
-						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group335262.png?v=2021-03-02T20:26:07.909Z" transition="transform 0.2s ease 0s" hover-transform="translateX(-10px)" md-max-height="40px" />
+						<Image
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group335262.png?v=2021-03-02T20:26:07.909Z"
+							transition="transform 0.2s ease 0s"
+							hover-transform="translateX(-10px)"
+							md-max-height="40px"
+							sm-min-height="39px"
+						/>
 						{"            "}
 					</StackItem>
-					<StackItem width="30%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="30%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="20%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						{"            "}
 					</StackItem>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
-						<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201177.png?v=2021-03-02T20:29:15.696Z" transition="transform 0.2s ease 0s" hover-transform="translateX(10px)" md-max-height="40px" />
+						<Image
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201177.png?v=2021-03-02T20:29:15.696Z"
+							transition="transform 0.2s ease 0s"
+							hover-transform="translateX(10px)"
+							md-max-height="40px"
+							sm-min-height="39px"
+						/>
 						{"            "}
 					</StackItem>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201171.png?v=2021-03-02T20:40:39.210Z"
@@ -248,14 +284,28 @@ export default (() => {
 							transition="transform 0.2s ease 0s"
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
+							sm-min-height="39px"
+							sm-margin="0px 0px 0px 0px"
 						/>
 						{"            "}
 					</StackItem>
-					<StackItem width="30%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="30%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="20%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						{"            "}
 					</StackItem>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201166.png?v=2021-03-02T20:56:48.661Z"
@@ -263,10 +313,18 @@ export default (() => {
 							transition="transform 0.2s ease 0s"
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
+							sm-min-height="39px"
+							sm-margin="0px 0px 0px 0px"
 						/>
 						{"            "}
 					</StackItem>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201174.png?v=2021-03-02T20:58:34.921Z"
@@ -274,14 +332,27 @@ export default (() => {
 							transition="transform 0.2s ease 0s"
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
+							sm-min-height="39px"
 						/>
 						{"            "}
 					</StackItem>
-					<StackItem width="30%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="30%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="20%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						{"            "}
 					</StackItem>
-					<StackItem width="35%" display="flex" position="relative" z-index="9">
+					<StackItem
+						width="35%"
+						display="flex"
+						position="relative"
+						z-index="9"
+						sm-width="40%"
+					>
 						<Override slot="StackItemContent" align-items="center" justify-content="start" text-align="center" />
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201178.png?v=2021-03-02T20:59:25.930Z"
@@ -289,6 +360,7 @@ export default (() => {
 							transition="transform 0.2s ease 0s"
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
+							sm-min-height="39px"
 						/>
 						{"            "}
 					</StackItem>
@@ -300,8 +372,8 @@ export default (() => {
 				width="80%"
 				margin="35px 0px 0px 0px"
 				lg-width="90%"
-				min-height="590px"
 				md-margin="0px 0px 0px 0px"
+				sm-width="100%"
 			>
 				<Override slot="Button" background="#592CF0" cursor="pointer" />
 			</Components.Video>
@@ -336,6 +408,7 @@ export default (() => {
 					position="relative"
 					z-index="9"
 					margin="0px 0px 40px 0px"
+					sm-margin="0px 0px 0px 0px"
 				>
 					<Override
 						slot="StackItemContent"
@@ -389,6 +462,7 @@ export default (() => {
 						bottom="auto"
 						text-align="center"
 						md-right="auto"
+						sm-top="-50px"
 					/>
 					<Image src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%208@4x.png?v=2021-03-03T20:39:03.380Z" position="relative" z-index="4" margin="0px 0px 0px 0px" />
 					{"            "}
@@ -1252,6 +1326,7 @@ export default (() => {
 								margin="0px 20px 0px 0px"
 								z-index="9"
 								lg-max-height="90px"
+								sm-left="20px"
 							/>
 							<Image
 								src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/asdsaxzc.png?v=2021-03-04T10:53:46.469Z"
@@ -1260,6 +1335,8 @@ export default (() => {
 								top="-50px"
 								z-index="9"
 								lg-max-height="128px"
+								sm-left="20px"
+								sm-top="-20px"
 							/>
 						</Box>
 						<Image
@@ -1281,6 +1358,7 @@ export default (() => {
 							left="auto"
 							lg-right="-80px"
 							lg-max-height="52px"
+							sm-right="-40px"
 						/>
 					</Box>
 					<Box
@@ -1307,6 +1385,10 @@ export default (() => {
 						right="200px"
 						bottom="auto"
 						transform="rotate(45deg)"
+						sm-filter="blur(250.359px)"
+						sm-top="0px"
+						sm-height="10%"
+						sm-width="15%"
 					/>
 					<Box
 						background="linear-gradient(86.84deg, rgba(203, 0, 197, 0.61) 30.4%, rgba(80, 32, 155, 0.61) 36.31%, rgba(80, 32, 156, 0.61) 106.11%)"
@@ -1559,6 +1641,7 @@ export default (() => {
 							right="-150px"
 							bottom="64.6094px"
 							border-radius="22px"
+							sm-right="-130px"
 						/>
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201244.png?v=2021-03-04T19:59:24.465Z"
@@ -1569,6 +1652,7 @@ export default (() => {
 							top="auto"
 							z-index="8"
 							lg-max-height="326px"
+							sm-left="5px"
 						/>
 						<Image
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%207@4x.png?v=2021-03-04T19:59:40.639Z"
@@ -1591,6 +1675,7 @@ export default (() => {
 							z-index="8"
 							lg-max-height="72px"
 							lg-right="-30px"
+							sm-right="-20px"
 						/>
 					</Box>
 					{"            "}
@@ -1945,6 +2030,10 @@ export default (() => {
 						font="400 16px/22px --fontFamily-googleInter"
 						margin="0px 24px 0px 0px"
 						lg-order="1"
+						sm-text-align="center"
+						sm-margin="0px 0px 0px 0px"
+						md-margin="0px 0px 0px 0px"
+						md-text-align="center"
 					>
 						© 2021 stream gem — full stream monetization
 					</Text>
