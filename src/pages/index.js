@@ -374,8 +374,10 @@ export default (() => {
 				lg-width="90%"
 				md-margin="0px 0px 0px 0px"
 				sm-width="100%"
+				overflow-y="hidden"
+				overflow-x="hidden"
 			>
-				<Override slot="Button" background="#592CF0" cursor="pointer" />
+				<Override slot="Button" background="#592CF0" cursor="pointer" hover-background="#2d07ae" />
 			</Components.Video>
 		</Section>
 		<Section background="#050211" padding="60px 0 60px 0" sm-padding="60px 0 30px 0">
