@@ -43,7 +43,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"603e751a50a2640bdf3f75d3"}>
-				{"* {\n    scroll-behavior: smooth;\n    }"}
+				{"* {\n    scroll-behavior: smooth;\n    }\n:focus {\n    outline: none;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;

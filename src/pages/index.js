@@ -66,7 +66,6 @@ export default (() => {
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
-						opacity="0.9"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
@@ -78,7 +77,6 @@ export default (() => {
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
-						opacity="0.9"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
@@ -90,7 +88,6 @@ export default (() => {
 						font="450 16px/140% --fontFamily-googleInter"
 						text-decoration-line="initial"
 						color="#F0F0F5"
-						opacity="0.9"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
@@ -130,7 +127,6 @@ export default (() => {
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						<Text
 							color="#ffffff"
-							opacity="0.9"
 							font="650 72px/67.68px --fontFamily-googleInter"
 							margin="0px 0px 0px 0px"
 							lg-font="650 64px/60px --fontFamily-googleInter"
@@ -150,13 +146,7 @@ export default (() => {
 							position="relative"
 							z-index="9"
 						/>
-						<Text
-							color="#6C6B7D"
-							opacity="0.9"
-							font="400 22px/30.8px --fontFamily-googleInter"
-							margin="0px 0px 36px 0px"
-							md-font="400 18px/25px --fontFamily-googleInter"
-						>
+						<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="0px 0px 36px 0px" md-font="400 18px/25px --fontFamily-googleInter">
 							Make money streaming. Improve the quality and interactivity{" "}
 							<br />
 							of your streams with widgets, polls and other features
@@ -199,7 +189,6 @@ export default (() => {
 						height="100%"
 						background="repeating-linear-gradient(88.11deg,rgba(79, 58, 223, 0.29) 23.3%,rgba(200, 58, 223, 0.29) 82.21%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/contain no-repeat"
 						filter="blur(220px)"
-						transform="matrix(-1, 0.01, 0.01, 1, 0, 0)"
 						z-index="2"
 					/>
 					<Box
@@ -209,7 +198,6 @@ export default (() => {
 						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/630px no-repeat scroll padding-box"
 						z-index="9"
 						quarkly-title="Bg-man"
-						transform="rotate(-0.04deg)"
 						lg-width="80%"
 						lg-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/550px no-repeat scroll padding-box"
 						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/440px no-repeat scroll padding-box"
@@ -398,7 +386,6 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="650 72px/67.68px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
@@ -427,7 +414,6 @@ export default (() => {
 					/>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 22px/30.8px --fontFamily-googleInter"
 						margin="0px 0px 36px 0px"
 						position="relative"
@@ -460,7 +446,6 @@ export default (() => {
 						background="linear-gradient(86.84deg,rgba(252, 228, 82, 0.61) 27.6%,rgba(248, 166, 91, 0.562344) 50.5%,rgba(196, 196, 196, 0) 88.6%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Elli21.png?v=2021-03-03T20:44:15.177Z) 0% 0%/contain no-repeat"
 						position="absolute"
 						z-index="1"
-						transform="rotate(-59.91deg)"
 						filter="blur(94px)"
 						left="auto"
 						right="90px"
@@ -501,7 +486,6 @@ export default (() => {
 						background="linear-gradient(86.84deg, rgba(231, 22, 205, 0.61) 30.4%, rgba(253, 68, 233, 0.61) 36.31%, rgba(196, 196, 196, 0) 106.11%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Elli21.png?v=2021-03-03T20:44:15.177Z) 0% 0%/contain no-repeat"
 						position="absolute"
 						z-index="1"
-						transform="rotate(-59.91deg)"
 						filter="blur(94px)"
 						top="-50px"
 						bottom="auto"
@@ -537,7 +521,6 @@ export default (() => {
 						background="linear-gradient(86.84deg, rgba(0, 123, 97, 0.61) 30.4%, rgba(43, 190, 188, 0.61) 36.31%, rgba(196, 196, 196, 0) 106.11%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Elli21.png?v=2021-03-03T20:44:15.177Z) 0% 0%/contain no-repeat"
 						position="absolute"
 						z-index="1"
-						transform="rotate(-59.91deg)"
 						filter="blur(94px)"
 						top="-50px"
 						bottom="auto"
@@ -605,7 +588,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Register and setting
 						<br />
 						up tools
@@ -629,7 +612,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Add a link to the stream
 						<br />
 						gem to your bs
@@ -653,7 +636,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" opacity="0.9" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						You start getting your
 						<br />
 						hard-earned
@@ -677,7 +660,6 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="650 72px/67.68px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
@@ -697,13 +679,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text
-						color="#6C6B7D"
-						opacity="0.9"
-						font="400 22px/30.8px --fontFamily-googleInter"
-						margin="4px 0px 24px 0px"
-						md-font="400 18px/23px --fontFamily-googleInter"
-					>
+					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Monetize your audience
 					</Text>
 					{"            "}
@@ -748,7 +724,6 @@ export default (() => {
 						</Text>
 						<Text
 							color="#6C6B7D"
-							opacity="0.9"
 							font="400 22px/30.8px --fontFamily-googleInter"
 							margin="0px 0px 0px 0px"
 							md-font="400 18px/23px --fontFamily-googleInter"
@@ -788,7 +763,6 @@ export default (() => {
 						<Box position="relative">
 							<Box
 								background="linear-gradient(86.84deg, rgba(252, 228, 82, 0.61) 30.4%, rgba(248, 166, 91, 0.562344) 36.31%, rgba(196, 196, 196, 0) 106.11%);"
-								transform="rotate(-33.72deg)"
 								filter="blur(94px)"
 								height="150px"
 								width="280px"
@@ -905,7 +879,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -916,7 +889,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -962,7 +934,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -974,7 +945,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 50px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -1032,7 +1002,6 @@ export default (() => {
 							left="24px"
 							right="auto"
 							bottom="0px"
-							transform="rotate(-117.91deg)"
 						/>
 						<Box
 							background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
@@ -1195,7 +1164,6 @@ export default (() => {
 						left="auto"
 						right="auto"
 						bottom="100px"
-						transform="rotate(14.18deg)"
 					/>
 					{"            "}
 				</StackItem>
@@ -1220,7 +1188,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -1231,7 +1198,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -1260,7 +1226,6 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="650 72px/67.68px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
@@ -1280,13 +1245,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text
-						color="#6C6B7D"
-						opacity="0.9"
-						font="400 22px/30.8px --fontFamily-googleInter"
-						margin="4px 0px 24px 0px"
-						md-font="400 18px/23px --fontFamily-googleInter"
-					>
+					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Monetize relationships with other streamers
 					</Text>
 					{"            "}
@@ -1423,7 +1382,6 @@ export default (() => {
 						left="auto"
 						right="200px"
 						bottom="auto"
-						transform="rotate(45deg)"
 						sm-filter="blur(250.359px)"
 						sm-top="0px"
 						sm-height="10%"
@@ -1439,7 +1397,6 @@ export default (() => {
 						top="150px"
 						left="auto"
 						bottom="auto"
-						transform="rotate(-33.72deg)"
 						right="150px"
 					/>
 					<Box
@@ -1452,7 +1409,6 @@ export default (() => {
 						top="0px"
 						left="-40px"
 						bottom="auto"
-						transform="rotate(-33.72deg)"
 						right="auto"
 					/>
 					{"            "}
@@ -1479,7 +1435,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -1490,7 +1445,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -1526,7 +1480,6 @@ export default (() => {
 					/>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="650 72px/67.68px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
@@ -1548,13 +1501,7 @@ export default (() => {
 						md-align-items="center"
 						md-justify-content="center"
 					/>
-					<Text
-						color="#6C6B7D"
-						opacity="0.9"
-						font="400 22px/30.8px --fontFamily-googleInter"
-						margin="4px 0px 24px 0px"
-						md-font="400 18px/23px --fontFamily-googleInter"
-					>
+					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Our system allows you to automate interactions with advertisers,
 						<br />
 						so its size is not important.
@@ -1601,7 +1548,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -1612,7 +1558,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 50px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -1763,7 +1708,6 @@ export default (() => {
 						left="auto"
 						right="auto"
 						bottom="auto"
-						transform="rotate(-117.91deg)"
 					/>
 					<Box
 						display="flex"
@@ -1875,7 +1819,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="500 48px/48px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
@@ -1886,7 +1829,6 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 20px/28px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
@@ -1959,7 +1901,6 @@ export default (() => {
 					/>
 					<Text
 						color="#ffffff"
-						opacity="0.9"
 						font="400 18px/24px --fontFamily-googleInter"
 						margin="0px 0px 24px 0px"
 						padding="6px 11px 6px 11px"
@@ -2075,14 +2016,13 @@ export default (() => {
 					{"        "}
 					<Text
 						color="#6C6B7D"
-						opacity="0.9"
 						font="400 16px/22px --fontFamily-googleInter"
 						margin="0px 24px 0px 0px"
 						lg-order="1"
 						sm-text-align="center"
 						sm-margin="0px 0px 0px 0px"
-						md-margin="0px 0px 0px 0px"
 						md-text-align="center"
+						md-margin="0px 0px 0px 0px"
 					>
 						© 2021 stream gem — full stream monetization
 					</Text>
@@ -2178,7 +2118,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"603e751a50a2640bdf3f75d3"}>
-				{"* {\n    scroll-behavior: smooth;\n    }"}
+				{"* {\n    scroll-behavior: smooth;\n    }\n:focus {\n    outline: none;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;
