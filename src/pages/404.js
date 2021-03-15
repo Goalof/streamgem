@@ -42,7 +42,9 @@ export default (() => {
 			Made on Quarkly
 		</Link>
 		<RawHtml>
-			<style place={"endOfHead"} rawKey={"603e751a50a2640bdf3f75d3"} />
+			<style place={"endOfHead"} rawKey={"603e751a50a2640bdf3f75d3"}>
+				{"* {\n    scroll-behavior: smooth;\n    }"}
+			</style>
 		</RawHtml>
 	</Theme>;
 });
