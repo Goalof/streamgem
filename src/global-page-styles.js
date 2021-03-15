@@ -5,11 +5,13 @@ import { createGlobalStyle } from "styled-components";
 const pageStyles = {
     "404": {
         "overflow-x": "hidden",
-        "overflow-y": ""
+        "overflow-y": "",
+        "background": "#050211"
     },
     "index": {
         "overflow-x": "hidden",
-        "overflow-y": ""
+        "overflow-y": "",
+        "background": "#050211"
     }
 };
 
