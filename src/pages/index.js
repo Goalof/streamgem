@@ -209,10 +209,10 @@ export default (() => {
 						height="100%"
 						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/auto no-repeat scroll padding-box"
 						z-index="1"
-						filter="blur(18px)"
 						padding="0px 0px 0px 0px"
 						quarkly-title="Bg-tv"
 						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/400px no-repeat scroll padding-box"
+						filter="blur(18px)"
 					/>
 					<StackItem
 						width="35%"
@@ -486,7 +486,6 @@ export default (() => {
 						background="linear-gradient(86.84deg, rgba(231, 22, 205, 0.61) 30.4%, rgba(253, 68, 233, 0.61) 36.31%, rgba(196, 196, 196, 0) 106.11%),url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Elli21.png?v=2021-03-03T20:44:15.177Z) 0% 0%/contain no-repeat"
 						position="absolute"
 						z-index="1"
-						filter="blur(94px)"
 						top="-50px"
 						bottom="auto"
 						left="auto"
@@ -495,6 +494,7 @@ export default (() => {
 						text-align="center"
 						lg-right="50px"
 						md-right="auto"
+						filter="blur(94px)"
 					/>
 					<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@4x.png?v=2021-03-03T20:52:20.454Z" position="relative" z-index="4" />
 					{"            "}
@@ -763,7 +763,6 @@ export default (() => {
 						<Box position="relative">
 							<Box
 								background="linear-gradient(86.84deg, rgba(252, 228, 82, 0.61) 30.4%, rgba(248, 166, 91, 0.562344) 36.31%, rgba(196, 196, 196, 0) 106.11%);"
-								filter="blur(94px)"
 								height="150px"
 								width="280px"
 								position="absolute"
@@ -775,6 +774,7 @@ export default (() => {
 								md-left="60px"
 								md-width="150px"
 								md-height="110px"
+								filter="blur(94px)"
 							/>
 							<Image
 								loading="lazy"
@@ -843,18 +843,6 @@ export default (() => {
 							sm-bottom="30px"
 						/>
 					</Box>
-					<Box
-						background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%);"
-						filter="blur(220px)"
-						width="100%"
-						height="70%"
-						position="absolute"
-						z-index="1"
-						top="0px"
-						left="auto"
-						right="auto"
-						bottom="auto"
-					/>
 					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
@@ -992,18 +980,6 @@ export default (() => {
 						z-index="2"
 					>
 						<Box
-							background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
-							filter="blur(220px)"
-							width="100%"
-							height="70%"
-							position="absolute"
-							z-index="3"
-							top="0px"
-							left="auto"
-							right="auto"
-							bottom="auto"
-						/>
-						<Box
 							width="100%"
 							height="60%"
 							position="absolute"
@@ -1115,10 +1091,10 @@ export default (() => {
 							loading="lazy"
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%2011@4x.png?v=2021-03-04T00:16:37.637Z"
 							position="absolute"
-							bottom="-62px"
+							bottom="-46px"
 							top="auto"
 							left="auto"
-							right="100px"
+							right="128px"
 							lg-bottom="-30px"
 							md-max-width="34px"
 							md-bottom="-20px"
@@ -1141,18 +1117,6 @@ export default (() => {
 							md-top="75px"
 						/>
 					</Box>
-					<Box
-						background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.3) 23.57%, rgba(200, 58, 223, 0.3) 92.49%)"
-						filter="blur(220px)"
-						width="80%"
-						height="60%"
-						position="absolute"
-						z-index="7"
-						top="auto"
-						left="auto"
-						right="auto"
-						bottom="100px"
-					/>
 					{"            "}
 				</StackItem>
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
@@ -1347,18 +1311,6 @@ export default (() => {
 							sm-right="-40px"
 						/>
 					</Box>
-					<Box
-						background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.15) 23.57%, rgba(200, 58, 223, 0.15) 92.49%)"
-						filter="blur(220px)"
-						width="100%"
-						height="100%"
-						position="absolute"
-						z-index="1"
-						top="auto"
-						left="auto"
-						right="auto"
-						bottom="auto"
-					/>
 					<Box
 						background="linear-gradient(88.2deg, #4F3ADF 27.59%, #A529DF 82.27%)"
 						filter="blur(230.359px)"
@@ -1571,7 +1523,6 @@ export default (() => {
 					/>
 					<Box
 						background="linear-gradient(97.83deg, rgba(79, 58, 223, 0.2) 23.57%, rgba(200, 58, 223, 0.2) 92.49%)"
-						filter="blur(150px)"
 						width="80%"
 						height="80%"
 						position="absolute"
@@ -1580,6 +1531,7 @@ export default (() => {
 						left="auto"
 						right="auto"
 						bottom="auto"
+						filter="blur(150px)"
 					/>
 					<Box
 						display="flex"
