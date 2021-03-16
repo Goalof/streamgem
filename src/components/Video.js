@@ -1,8 +1,9 @@
 import React, { useState, useRef, lazy } from 'react';
 import { Box, Icon } from '@quarkly/widgets';
-import { useOverrides } from '@quarkly/components';
+import { useOverrides } from '@quarkly/components'; // const YouTube = lazy(() => import('react-youtube'));
+
+import YouTube from 'react-youtube';
 import { FaPlay } from "react-icons/fa";
-const YouTube = lazy(() => import('react-youtube'));
 const overrides = {
 	'Wrapper': {
 		kind: 'Box'
