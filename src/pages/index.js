@@ -197,7 +197,7 @@ export default (() => {
 						position="absolute"
 						width="100%"
 						height="100%"
-						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201-min.png?v=2021-03-16T13:10:47.197Z) center bottom/630px no-repeat scroll padding-box"
+						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T14:58:19.305Z) center bottom/630px no-repeat scroll padding-box"
 						z-index="6"
 						quarkly-title="Bg-man"
 						lg-width="80%"
@@ -838,7 +838,7 @@ export default (() => {
 						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205283.png?v=2021-03-03T23:04:20.837Z" sm-max-width="102px" />
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205278.png?v=2021-03-03T23:04:55.283Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205278.webp?v=2021-03-16T14:57:39.001Z"
 							position="absolute"
 							bottom="50px"
 							left="50px"
@@ -1010,7 +1010,7 @@ export default (() => {
 						/>
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335246.png?v=2021-03-16T11:55:54.617Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335246.webp?v=2021-03-16T14:59:00.152Z"
 							position="absolute"
 							right="0px"
 							left="auto"
@@ -1085,7 +1085,7 @@ export default (() => {
 						/>
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335257.png?v=2021-03-16T11:56:04.562Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335257.webp?v=2021-03-16T14:58:42.842Z"
 							position="absolute"
 							bottom="80px"
 							left="0px"
