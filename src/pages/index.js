@@ -118,7 +118,7 @@ export default (() => {
 				{"    "}
 			</Stack>
 		</Section>
-		<Section background="#050211" padding="60px 0 60px 0">
+		<Section background="#050211" padding="60px 0 0px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Box position="relative">
 				<Stack margin="0px 0px 0px 0px" gap="20px" position="relative" z-index="9">
@@ -180,6 +180,8 @@ export default (() => {
 					background="url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-16T11:55:16.982Z) 50% 50%/cover no-repeat"
 					z-index="5"
 					top="30px"
+					lg-background="url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-16T11:55:16.982Z) 50% 50%/contain no-repeat"
+					sm-top="30px"
 				/>
 				<Stack
 					margin="0px 0px 0px 0px"
@@ -213,6 +215,7 @@ export default (() => {
 						quarkly-title="Bg-tv"
 						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/400px no-repeat scroll padding-box"
 						filter="blur(18px)"
+						sm-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/300px no-repeat scroll padding-box"
 					/>
 					<StackItem
 						width="35%"
@@ -359,6 +362,9 @@ export default (() => {
 					{"    "}
 				</Stack>
 			</Box>
+		</Section>
+		<Section padding="0px 0 60px 0">
+			<Override slot="SectionContent" align-items="center" />
 			<Components.Video
 				border-radius="10px"
 				width="80%"
@@ -1326,6 +1332,7 @@ export default (() => {
 						sm-top="0px"
 						sm-height="10%"
 						sm-width="15%"
+						md-display="none"
 					/>
 					{"            "}
 				</StackItem>
@@ -1508,6 +1515,7 @@ export default (() => {
 						right="auto"
 						bottom="auto"
 						filter="blur(150px)"
+						md-display="none"
 					/>
 					<Box
 						display="flex"
@@ -1554,6 +1562,7 @@ export default (() => {
 							z-index="8"
 							lg-max-height="326px"
 							sm-left="5px"
+							md-left="0px"
 						/>
 						<Image
 							loading="lazy"
@@ -1624,6 +1633,7 @@ export default (() => {
 						left="auto"
 						right="auto"
 						bottom="auto"
+						md-display="none"
 					/>
 					<Box
 						display="flex"
