@@ -25,7 +25,6 @@
         "babel-plugin-styled-components": "1.10.7",
         "react-helmet": "^6.1.0",
         "react": "^16.13.0",
-        "react-youtube": "latest",
         "@quarkly/widgets": "0.2.47",
         "@quarkly/components": "0.2.47",
         "react-dom": "^16.13.0",
