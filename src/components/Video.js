@@ -9,7 +9,7 @@ const Video = ({
 	const [player, setPlayer] = useState(<Box />);
 	setTimeout(() => {
 		setPlayer(<YouTubePlayer videoId={videoId} />);
-	}, 2000);
+	}, 1000);
 	return <Box {...props}>
 		{player}
 	</Box>;

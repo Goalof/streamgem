@@ -197,7 +197,7 @@ export default (() => {
 						position="absolute"
 						width="100%"
 						height="100%"
-						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T14:58:19.305Z) center bottom/630px no-repeat scroll padding-box"
+						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T15:04:05.729Z) center bottom/630px no-repeat scroll padding-box"
 						z-index="6"
 						quarkly-title="Bg-man"
 						lg-width="80%"
@@ -1033,7 +1033,7 @@ export default (() => {
 							lg-max-height="137px"
 							md-max-width="120px"
 							md-bottom="0px"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.png?v=2021-03-03T23:29:00.567Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.webp?v=2021-03-16T15:03:48.824Z"
 						/>
 					</Box>
 					{"            "}
