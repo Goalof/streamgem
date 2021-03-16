@@ -1,8 +1,8 @@
-import React, { useState, useRef, lazy } from 'react';
+import React, { useState, useRef } from 'react';
 import { Box, Icon } from '@quarkly/widgets';
 import { useOverrides } from '@quarkly/components'; // const YouTube = lazy(() => import('react-youtube'));
+// import YouTube from 'react-youtube';
 
-import YouTube from 'react-youtube';
 import { FaPlay } from "react-icons/fa";
 const overrides = {
 	'Wrapper': {
@@ -68,13 +68,20 @@ const YouTubePlayer = ({
 			height="100%"
 			position="absolute"
 		>
-			<YouTube ref={playerRef} videoId={videoId} opts={{
-				width: '100%',
-				height: '100%',
-				playerVars: {
-					autoplay: 0
-				}
-			}} onReady={onReady} />
+			{
+				/*<YouTube
+    ref={playerRef}
+    videoId={videoId}
+    opts={{
+    	width: '100%',
+    	height: '100%',
+    	playerVars: {
+    		autoplay: 0
+    	}
+    }}
+    onReady={onReady}
+    />*/
+			}
 		</Box>
 		<Box
 			top="calc(50% - 50px)"
