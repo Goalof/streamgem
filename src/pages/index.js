@@ -1314,8 +1314,8 @@ export default (() => {
 					<Box
 						background="linear-gradient(88.2deg, #4F3ADF 27.59%, #A529DF 82.27%)"
 						filter="blur(230.359px)"
-						width="50%"
-						height="50%"
+						width="70%"
+						height="40%"
 						position="absolute"
 						z-index="1"
 						top="100px"
@@ -1326,30 +1326,6 @@ export default (() => {
 						sm-top="0px"
 						sm-height="10%"
 						sm-width="15%"
-					/>
-					<Box
-						background="linear-gradient(86.84deg, rgba(203, 0, 197, 0.61) 30.4%, rgba(80, 32, 155, 0.61) 36.31%, rgba(80, 32, 156, 0.61) 106.11%)"
-						filter="blur(230.359px)"
-						width="20%"
-						height="20%"
-						position="absolute"
-						z-index="1"
-						top="150px"
-						left="auto"
-						bottom="auto"
-						right="150px"
-					/>
-					<Box
-						background="linear-gradient(86.84deg, rgba(0, 186, 146, 0.61) 30.4%, rgba(2, 186, 147, 0.61) 36.31%, rgba(196, 196, 196, 0) 106.11%)"
-						filter="blur(94px)"
-						width="30%"
-						height="30%"
-						position="absolute"
-						z-index="1"
-						top="0px"
-						left="-40px"
-						bottom="auto"
-						right="auto"
 					/>
 					{"            "}
 				</StackItem>
