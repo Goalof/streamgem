@@ -232,6 +232,12 @@ export default (() => {
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
 							sm-min-height="39px"
+							width="161px"
+							height="81px"
+							lg-width="122px"
+							lg-height="61px"
+							md-width="77px"
+							md-height="38px"
 						/>
 						{"            "}
 					</StackItem>
@@ -259,6 +265,12 @@ export default (() => {
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
 							sm-min-height="39px"
+							width="128px"
+							height="81px"
+							lg-width="97px"
+							lg-height="61px"
+							md-width="72px"
+							md-height="45px"
 						/>
 						{"            "}
 					</StackItem>
@@ -278,6 +290,12 @@ export default (() => {
 							md-max-height="40px"
 							sm-min-height="39px"
 							sm-margin="0px 0px 0px 0px"
+							width="291px"
+							height="90px"
+							lg-width="220px"
+							lg-height="68px"
+							md-width="132px"
+							md-height="40px"
 						/>
 						{"            "}
 					</StackItem>
@@ -308,6 +326,12 @@ export default (() => {
 							md-max-height="40px"
 							sm-min-height="39px"
 							sm-margin="0px 0px 0px 0px"
+							width="258px"
+							height="90px"
+							lg-width="195px"
+							lg-height="68px"
+							md-width="131px"
+							md-height="46px"
 						/>
 						{"            "}
 					</StackItem>
@@ -327,6 +351,12 @@ export default (() => {
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
 							sm-min-height="39px"
+							width="258px"
+							height="90px"
+							lg-width="195px"
+							lg-height="68px"
+							md-width="119px"
+							md-height="41px"
 						/>
 						{"            "}
 					</StackItem>
@@ -356,6 +386,12 @@ export default (() => {
 							hover-transform="translateX(10px)"
 							md-max-height="40px"
 							sm-min-height="39px"
+							width="161px"
+							height="81px"
+							lg-width="122px"
+							lg-height="61px"
+							md-height="41px"
+							md-width="82px"
 						/>
 						{"            "}
 					</StackItem>
@@ -376,6 +412,7 @@ export default (() => {
 				overflow-x="hidden"
 			>
 				<Override slot="Button" background="#592CF0" cursor="pointer" hover-background="#2d07ae" />
+				<Override slot="YouTubePlayer" cursor="pointer" />
 			</Components.Video>
 		</Section>
 		<Section background="#050211" padding="60px 0 60px 0" sm-padding="60px 0 30px 0">
@@ -467,6 +504,8 @@ export default (() => {
 						position="relative"
 						z-index="4"
 						margin="0px 0px 0px 0px"
+						width="62px"
+						height="66px"
 					/>
 					{"            "}
 				</StackItem>
@@ -502,7 +541,14 @@ export default (() => {
 						md-right="auto"
 						filter="blur(94px)"
 					/>
-					<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@4x.png?v=2021-03-03T20:52:20.454Z" position="relative" z-index="4" />
+					<Image
+						loading="lazy"
+						src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@4x.png?v=2021-03-03T20:52:20.454Z"
+						position="relative"
+						z-index="4"
+						width="69px"
+						height="60px"
+					/>
 					{"            "}
 				</StackItem>
 				<StackItem
@@ -543,6 +589,8 @@ export default (() => {
 						position="relative"
 						z-index="4"
 						left="0px"
+						width="80px"
+						height="88px"
 					/>
 					{"            "}
 				</StackItem>
@@ -792,6 +840,12 @@ export default (() => {
 								md-bottom="-70px"
 								sm-max-height="120px"
 								sm-top="90px"
+								width="390px"
+								height="325px"
+								lg-width="334px"
+								lg-height="277px"
+								md-width="220px"
+								md-height="181px"
 							/>
 						</Box>
 					</Box>
@@ -834,8 +888,27 @@ export default (() => {
 						position="relative"
 						z-index="2"
 					>
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.webp?v=2021-03-16T14:33:08.021Z" lg-width="100%" md-width="90%" />
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205283.png?v=2021-03-03T23:04:20.837Z" sm-max-width="102px" />
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.webp?v=2021-03-16T14:33:08.021Z"
+							lg-width="385px"
+							md-width="335px"
+							width="538px"
+							height="355px"
+							lg-height="254px"
+							md-height="221px"
+						/>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205283.webp?v=2021-03-16T20:33:40.466Z"
+							sm-max-width="102px"
+							width="163px"
+							height="79px"
+							lg-width="124px"
+							lg-height="66px"
+							md-width="102px"
+							md-height="61px"
+						/>
 						<Image
 							loading="lazy"
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205278.webp?v=2021-03-16T14:57:39.001Z"
@@ -846,8 +919,13 @@ export default (() => {
 							top="auto"
 							lg-left="20px"
 							md-max-width="127px"
-							md-left="40px"
+							md-left="30px"
 							sm-bottom="30px"
+							width="146px"
+							height="95px"
+							lg-width="110px"
+							lg-height="70px"
+							md-bottom="40px"
 						/>
 					</Box>
 					{"            "}
@@ -1004,9 +1082,13 @@ export default (() => {
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201201-min.png?v=2021-03-16T13:11:12.743Z"
 							position="relative"
 							left="-47px"
-							lg-width="100%"
+							lg-width="285px"
 							lg-left="auto"
-							md-max-width="263px"
+							width="489px"
+							height="613px"
+							lg-height="431px"
+							md-width="263px"
+							md-height="399px"
 						/>
 						<Image
 							loading="lazy"
@@ -1017,10 +1099,14 @@ export default (() => {
 							bottom="0px"
 							top="auto"
 							z-index="4"
-							lg-width="100%"
+							lg-width="208px"
 							lg-max-width="208px"
-							md-max-width="192px"
 							md-bottom="40px"
+							width="334px"
+							height="488px"
+							lg-height="278px"
+							md-width="192px"
+							md-height="257px"
 						/>
 						<Image
 							loading="lazy"
@@ -1030,10 +1116,14 @@ export default (() => {
 							right="auto"
 							top="auto"
 							z-index="5"
-							lg-max-height="137px"
-							md-max-width="120px"
-							md-bottom="0px"
+							md-bottom="10px"
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%203@3x%203.webp?v=2021-03-16T15:03:48.824Z"
+							width="204px "
+							height="143px"
+							lg-width="137px"
+							lg-height="96px"
+							md-width="127px"
+							md-height="89px"
 						/>
 					</Box>
 					{"            "}
@@ -1081,7 +1171,12 @@ export default (() => {
 							position="relative"
 							left="50px"
 							lg-left="15px"
-							md-max-width="260px"
+							width="488px"
+							height="542px"
+							lg-width="355px"
+							lg-height="392px"
+							md-width="300px"
+							md-height="345px"
 						/>
 						<Image
 							loading="lazy"
@@ -1091,8 +1186,12 @@ export default (() => {
 							left="0px"
 							right="auto"
 							top="auto"
-							lg-width="100%"
+							lg-width="357px"
 							md-bottom="40px"
+							width="540px"
+							height="135px"
+							lg-height="89px"
+							md-width="321px"
 						/>
 						<Image
 							loading="lazy"
@@ -1102,10 +1201,13 @@ export default (() => {
 							top="auto"
 							left="auto"
 							right="128px"
-							lg-bottom="-30px"
-							md-max-width="34px"
+							lg-bottom="0px"
 							md-bottom="-20px"
 							md-right="94px"
+							width="80px"
+							height="88px"
+							lg-width="39px"
+							lg-height="48px"
 						/>
 						<Image
 							loading="lazy"
@@ -1115,13 +1217,16 @@ export default (() => {
 							bottom="auto"
 							right="100px"
 							left="7px"
-							lg-left="-30px"
-							lg-top="77px"
+							lg-left="-10px"
+							lg-top="97px"
 							lg-bottom="auto"
 							lg-right="auto"
-							md-max-width="34px"
-							md-left="0px"
-							md-top="75px"
+							md-left="-10px"
+							md-top="80px"
+							width="81px"
+							height="79px"
+							lg-width="39px"
+							lg-height="42px"
 						/>
 					</Box>
 					{"            "}
@@ -1258,6 +1363,10 @@ export default (() => {
 								position="relative"
 								z-index="5"
 								lg-max-height="150px"
+								width="225px"
+								height="225px"
+								lg-width="157px"
+								lg-height="157px"
 							/>
 							<Image
 								loading="lazy"
@@ -1269,6 +1378,10 @@ export default (() => {
 								position="relative"
 								z-index="9"
 								lg-max-height="90px"
+								width="130px"
+								height="130px"
+								lg-width="87px"
+								lg-height="87px"
 							/>
 						</Box>
 						<Box display="flex" align-items="flex-end">
@@ -1281,6 +1394,10 @@ export default (() => {
 								z-index="9"
 								lg-max-height="90px"
 								sm-left="20px"
+								width="141px"
+								height="141px"
+								lg-width="93px"
+								lg-height="93px"
 							/>
 							<Image
 								loading="lazy"
@@ -1292,6 +1409,10 @@ export default (() => {
 								lg-max-height="128px"
 								sm-left="20px"
 								sm-top="-20px"
+								width="190px"
+								height="190px"
+								lg-width="128px"
+								lg-height="128px"
 							/>
 						</Box>
 						<Image
@@ -1303,7 +1424,12 @@ export default (() => {
 							right="auto"
 							bottom="auto"
 							z-index="6"
-							lg-max-height="72px"
+							width="80px"
+							height="88px"
+							lg-width="42px"
+							lg-height="52px"
+							lg-left="0px"
+							lg-top="0px"
 						/>
 						<Image
 							loading="lazy"
@@ -1316,6 +1442,8 @@ export default (() => {
 							lg-right="-80px"
 							lg-max-height="52px"
 							sm-right="-40px"
+							width="88px"
+							height="89px"
 						/>
 					</Box>
 					<Box
@@ -1564,6 +1692,10 @@ export default (() => {
 							lg-max-height="326px"
 							sm-left="5px"
 							md-left="0px"
+							height="412px"
+							width="257px"
+							lg-width="203px"
+							lg-height="326px"
 						/>
 						<Image
 							loading="lazy"
@@ -1576,6 +1708,8 @@ export default (() => {
 							lg-left="-58px"
 							lg-bottom="auto"
 							lg-top="-20px"
+							width="175px"
+							height="175px"
 						/>
 						<Image
 							loading="lazy"
@@ -1589,6 +1723,8 @@ export default (() => {
 							lg-max-height="72px"
 							lg-right="-30px"
 							sm-right="-20px"
+							height="99px"
+							width="99px"
 						/>
 					</Box>
 					{"            "}
@@ -1672,6 +1808,7 @@ export default (() => {
 							bottom="-85px"
 							lg-max-height="64px"
 							lg-bottom="-68px"
+							lg-width="278px"
 						/>
 						<Image
 							loading="lazy"
@@ -1682,7 +1819,10 @@ export default (() => {
 							bottom="auto"
 							top="auto"
 							z-index="8"
-							lg-width="100%"
+							lg-width="347px"
+							width="538px"
+							height="104px"
+							lg-height="66px"
 						/>
 						<Image
 							loading="lazy"
@@ -1696,6 +1836,8 @@ export default (() => {
 							lg-bottom="-108px"
 							lg-max-height="90px"
 							lg-left="35px"
+							width="162px"
+							height="167px"
 						/>
 						<Image
 							loading="lazy"
@@ -1705,9 +1847,12 @@ export default (() => {
 							left="115px"
 							top="-106px"
 							z-index="8"
-							lg-max-height="75px"
 							lg-top="-50px"
 							lg-left="87px"
+							width="178px"
+							height="150px"
+							lg-width="100px"
+							lg-height="75px"
 						/>
 						<Image
 							loading="lazy"
@@ -1719,7 +1864,11 @@ export default (() => {
 							top="-60px"
 							z-index="8"
 							lg-max-height="75px"
-							lg-top="-60px"
+							lg-top="-30px"
+							width="80px"
+							height="88px"
+							lg-width="37px"
+							lg-height="45px"
 						/>
 					</Box>
 					{"            "}
@@ -1795,6 +1944,8 @@ export default (() => {
 					z-index="6"
 					md-right="0px"
 					md-max-width="70px"
+					width="99px"
+					height="99px"
 				/>
 				<Image
 					loading="lazy"
@@ -1808,6 +1959,8 @@ export default (() => {
 					md-max-width="80px"
 					md-left="0px"
 					md-bottom="40px"
+					width="256px"
+					height="217px"
 				/>
 				<StackItem
 					width="100%"
@@ -1922,6 +2075,8 @@ export default (() => {
 						transform="translateY(12px)"
 						hover-transform="translateY(0px)"
 						lg-width="90%"
+						width="817px"
+						height="316px"
 					/>
 				</StackItem>
 				{"    "}
