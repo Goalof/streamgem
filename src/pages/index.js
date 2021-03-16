@@ -201,9 +201,9 @@ export default (() => {
 						z-index="6"
 						quarkly-title="Bg-man"
 						lg-width="80%"
-						lg-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/550px no-repeat scroll padding-box"
-						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/440px no-repeat scroll padding-box"
-						sm-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.png?v=2021-03-02T21:06:47.811Z) center bottom/330px no-repeat scroll padding-box"
+						lg-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T15:04:05.729Z) center bottom/550px no-repeat scroll padding-box"
+						md-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T15:04:05.729Z) center bottom/440px no-repeat scroll padding-box"
+						sm-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/face12424%201.webp?v=2021-03-16T15:04:05.729Z) center bottom/330px no-repeat scroll padding-box"
 					/>
 					<Box
 						position="absolute"
@@ -227,7 +227,7 @@ export default (() => {
 						<Override slot="StackItemContent" align-items="center" justify-content="flex-end" text-align="center" />
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group335262.png?v=2021-03-02T20:26:07.909Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group33526wqewqe.webp?v=2021-03-16T21:29:11.357Z"
 							transition="transform 0.2s ease 0s"
 							hover-transform="translateX(-10px)"
 							md-max-height="40px"
