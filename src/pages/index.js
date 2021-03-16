@@ -705,7 +705,7 @@ export default (() => {
 						flex-direction="column"
 						position="relative"
 						z-index="9"
-						background="#09001E url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201191.png?v=2021-03-16T11:55:28.942Z) 0% 0% /auto repeat scroll padding-box"
+						background="#09001E url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fonwebp.webp?v=2021-03-16T14:39:08.993Z) 0% 0% /cover no-repeat scroll padding-box"
 						padding="60px 0px 0px 0px"
 						min-height="487px"
 						lg-min-height="407px"
@@ -715,6 +715,7 @@ export default (() => {
 						md-min-height="323px"
 						sm-padding="40px 20px 0px 20px"
 						border-radius="22px"
+						sm-background="#09001E url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fonwebp.webp?v=2021-03-16T14:39:08.993Z) 30% 0%/cover no-repeat scroll padding-box"
 					/>
 					<Box>
 						<Text
@@ -833,7 +834,7 @@ export default (() => {
 						position="relative"
 						z-index="2"
 					>
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.png?v=2021-03-16T11:55:46.032Z" lg-width="100%" md-width="90%" />
+						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.webp?v=2021-03-16T14:33:08.021Z" lg-width="100%" md-width="90%" />
 						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205283.png?v=2021-03-03T23:04:20.837Z" sm-max-width="102px" />
 						<Image
 							loading="lazy"
