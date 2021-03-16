@@ -177,7 +177,7 @@ export default (() => {
 					position="absolute"
 					width="100%"
 					height="100%"
-					background="url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-02T20:31:33.375Z) 50% 50%/cover no-repeat"
+					background="url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Vector%201.png?v=2021-03-16T11:55:16.982Z) 50% 50%/cover no-repeat"
 					z-index="5"
 					top="30px"
 				/>
@@ -207,7 +207,7 @@ export default (() => {
 						position="absolute"
 						width="100%"
 						height="100%"
-						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-02T21:01:48.259Z) center 0%/auto no-repeat scroll padding-box"
+						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/fontv.png?v=2021-03-16T11:55:05.007Z) center 0%/auto no-repeat scroll padding-box"
 						z-index="1"
 						padding="0px 0px 0px 0px"
 						quarkly-title="Bg-tv"
@@ -699,7 +699,7 @@ export default (() => {
 						flex-direction="column"
 						position="relative"
 						z-index="9"
-						background="#09001E url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201191.png?v=2021-03-03T21:59:09.340Z) 0% 0% /auto repeat scroll padding-box"
+						background="#09001E url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201191.png?v=2021-03-16T11:55:28.942Z) 0% 0% /auto repeat scroll padding-box"
 						padding="60px 0px 0px 0px"
 						min-height="487px"
 						lg-min-height="407px"
@@ -778,7 +778,7 @@ export default (() => {
 							/>
 							<Image
 								loading="lazy"
-								src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@3x%201.png?v=2021-03-03T22:09:23.043Z"
+								src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/%D0%A0%D0%B5%D1%81%D1%83%D1%80%D1%81%201@3x.png?v=2021-03-16T11:54:43.657Z"
 								filter="drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))"
 								md-max-height="180px"
 								md-position="relative"
@@ -827,7 +827,7 @@ export default (() => {
 						position="relative"
 						z-index="2"
 					>
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.png?v=2021-03-03T23:02:29.816Z" lg-width="100%" md-width="90%" />
+						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205282.png?v=2021-03-16T11:55:46.032Z" lg-width="100%" md-width="90%" />
 						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Rectangle%205283.png?v=2021-03-03T23:04:20.837Z" sm-max-width="102px" />
 						<Image
 							loading="lazy"
@@ -1003,7 +1003,7 @@ export default (() => {
 						/>
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335246.png?v=2021-03-03T23:29:10.456Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335246.png?v=2021-03-16T11:55:54.617Z"
 							position="absolute"
 							right="0px"
 							left="auto"
@@ -1078,7 +1078,7 @@ export default (() => {
 						/>
 						<Image
 							loading="lazy"
-							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335257.png?v=2021-03-03T23:49:18.193Z"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%20335257.png?v=2021-03-16T11:56:04.562Z"
 							position="absolute"
 							bottom="80px"
 							left="0px"
@@ -1767,7 +1767,7 @@ export default (() => {
 				position="relative"
 				z-index="9"
 				width="100%"
-				background="rgba(55, 17, 181, 0.53) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201245.png?v=2021-03-04T00:51:33.975Z) 0% 0% /cover no-repeat scroll padding-box"
+				background="rgba(55, 17, 181, 0.53) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201245.png?v=2021-03-16T11:54:24.440Z) 0% 0% /cover no-repeat scroll padding-box"
 				overflow-y="hidden"
 				border-radius="18px"
 				lg-background="rgba(55, 17, 181, 0.53) url(https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Frame%201245.png?v=2021-03-04T00:51:33.975Z) 0% 0% /cover no-repeat scroll padding-box"
