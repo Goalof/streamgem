@@ -612,14 +612,23 @@ export default (() => {
 						z-index="9"
 					/>
 					<Box width="100%" display="flex" justify-content="space-around" position="absolute">
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z" position="relative" right="7px" />
-						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z" />
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z"
+							position="relative"
+							right="7px"
+							height="26px"
+							width="26px"
+						/>
+						<Image loading="lazy" src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z" height="26px" width="26px" />
 						<Image
 							loading="lazy"
 							src="https://uploads.quarkly.io/603e5d71752fdd001f9359eb/images/Group%201181.png?v=2021-03-03T20:57:33.791Z"
 							margin="0px 0px 0px 0px"
 							position="relative"
 							left="7px"
+							height="26px"
+							width="26px"
 						/>
 					</Box>
 					<Hr width="100%" background="linear-gradient(90deg, rgba(42, 13, 48, 0) 0%, #280D31 10.61%, #19103D 89.56%, rgba(23, 16, 62, 0) 100%)" border-color="rgba(0, 0, 0, 0)" />
