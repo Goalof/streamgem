@@ -37,7 +37,7 @@ export default (() => {
 					{"        "}
 					<Link
 						href="#"
-						font="600 22px/29px --fontFamily-googleInter"
+						font="600 22px/29px ‘Inter’, Arial, Helvetica, sans-serif"
 						color="#F0F0F5"
 						text-decoration-line="initial"
 						transition="color 0.2s ease 0s"
@@ -63,7 +63,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Link
 						href="#Viewers"
-						font="450 16px/140% --fontFamily-googleInter"
+						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -74,7 +74,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#Streamers"
-						font="450 16px/140% --fontFamily-googleInter"
+						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -85,7 +85,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#Advertisers"
-						font="450 16px/140% --fontFamily-googleInter"
+						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -101,7 +101,7 @@ export default (() => {
 					{"        "}
 					<Link
 						href="#"
-						font="450 16px/22.4px --fontFamily-googleInter"
+						font="450 16px/22.4px ‘Inter’, Arial, Helvetica, sans-serif"
 						color="#F0F0F5"
 						text-decoration-line="initial"
 						padding="9px 24px 8px 24px"
@@ -127,7 +127,7 @@ export default (() => {
 						<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 						<Text
 							color="#ffffff"
-							font="650 72px/67.68px --fontFamily-googleInter"
+							font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 							margin="0px 0px 0px 0px"
 							lg-font="650 64px/60px --fontFamily-googleInter"
 							md-font="650 50px/47px --fontFamily-googleInter"
@@ -146,14 +146,14 @@ export default (() => {
 							position="relative"
 							z-index="9"
 						/>
-						<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="0px 0px 36px 0px" md-font="400 18px/25px --fontFamily-googleInter">
+						<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="0px 0px 36px 0px" md-font="400 18px/25px --fontFamily-googleInter">
 							Make money streaming. Improve the quality and interactivity{" "}
 							<br />
 							of your streams with widgets, polls and other features
 						</Text>
 						<Link
 							href="#"
-							font="400 20px/28px --fontFamily-googleInter"
+							font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 							color="#F0F0F5"
 							text-decoration-line="initial"
 							padding="12px 30px 12px 30px"
@@ -429,7 +429,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						font="650 72px/67.68px --fontFamily-googleInter"
+						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
@@ -457,7 +457,7 @@ export default (() => {
 					/>
 					<Text
 						color="#6C6B7D"
-						font="400 22px/30.8px --fontFamily-googleInter"
+						font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 36px 0px"
 						position="relative"
 						z-index="9"
@@ -651,7 +651,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Register and setting
 						<br />
 						up tools
@@ -675,7 +675,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						Add a link to the stream
 						<br />
 						gem to your bs
@@ -699,7 +699,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px --fontFamily-googleInter" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
 						You start getting your
 						<br />
 						hard-earned
@@ -723,7 +723,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						font="650 72px/67.68px --fontFamily-googleInter"
+						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
@@ -742,7 +742,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Monetize your audience
 					</Text>
 					{"            "}
@@ -776,7 +776,7 @@ export default (() => {
 					/>
 					<Box>
 						<Text
-							font="700 48px/57.68px --fontFamily-googleInter"
+							font="700 48px/57.68px ‘Inter’, Arial, Helvetica, sans-serif"
 							color="#ffffff"
 							margin="0px 0px 32px 0px"
 							lg-font="700 32px/38px --fontFamily-googleInter"
@@ -788,7 +788,7 @@ export default (() => {
 						</Text>
 						<Text
 							color="#6C6B7D"
-							font="400 22px/30.8px --fontFamily-googleInter"
+							font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif"
 							margin="0px 0px 0px 0px"
 							md-font="400 18px/23px --fontFamily-googleInter"
 							sm-font="400 18px/30px --fontFamily-googleInter"
@@ -952,7 +952,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -961,7 +961,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -971,7 +971,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						md-font="400 20px/27px --fontFamily-googleInter"
@@ -1007,7 +1007,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -1016,7 +1016,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -1027,7 +1027,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 50px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						md-font="400 20px/27px --fontFamily-googleInter"
@@ -1038,7 +1038,7 @@ export default (() => {
 					</Text>
 					<Link
 						href="#"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						color="#F0F0F5"
 						text-decoration-line="initial"
 						padding="12px 30px 12px 30px"
@@ -1252,7 +1252,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="-10px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -1261,7 +1261,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -1271,7 +1271,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						md-font="400 20px/27px --fontFamily-googleInter"
@@ -1299,7 +1299,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" text-align="center" />
 					<Text
 						color="#ffffff"
-						font="650 72px/67.68px --fontFamily-googleInter"
+						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
@@ -1318,7 +1318,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Monetize relationships with other streamers
 					</Text>
 					{"            "}
@@ -1487,7 +1487,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="-10px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -1496,7 +1496,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -1506,7 +1506,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						md-font="400 20px/27px --fontFamily-googleInter"
@@ -1541,7 +1541,7 @@ export default (() => {
 					/>
 					<Text
 						color="#ffffff"
-						font="650 72px/67.68px --fontFamily-googleInter"
+						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="650 64px/60px --fontFamily-googleInter"
 						md-font="650 48px/45px --fontFamily-googleInter"
@@ -1562,7 +1562,7 @@ export default (() => {
 						md-align-items="center"
 						md-justify-content="center"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px --fontFamily-googleInter" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
 						Our system allows you to automate interactions with advertisers,
 						<br />
 						so its size is not important.
@@ -1600,7 +1600,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -1609,7 +1609,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -1619,7 +1619,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 50px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						lg-margin="0px 0px 0px 0px"
@@ -1895,7 +1895,7 @@ export default (() => {
 					/>
 					<Text
 						color="#592CF0"
-						font="400 14px/18px --fontFamily-googleInter"
+						font="400 14px/18px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="-10px 0px 23px 0px"
 						letter-spacing="3px"
 						text-transform="uppercase"
@@ -1904,7 +1904,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#ffffff"
-						font="500 48px/48px --fontFamily-googleInter"
+						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						lg-font="500 40px/40px --fontFamily-googleInter"
 						md-font="500 36px/36px --fontFamily-googleInter"
@@ -1914,7 +1914,7 @@ export default (() => {
 					</Text>
 					<Text
 						color="#6C6B7D"
-						font="400 20px/28px --fontFamily-googleInter"
+						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
 						lg-font="400 18px/24px --fontFamily-googleInter"
 						md-text-align="center"
@@ -1990,7 +1990,7 @@ export default (() => {
 					/>
 					<Text
 						color="#ffffff"
-						font="400 18px/24px --fontFamily-googleInter"
+						font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
 						padding="6px 11px 6px 11px"
 						background="#FF0743"
@@ -2000,7 +2000,7 @@ export default (() => {
 					</Text>
 					<Box>
 						<Text
-							font="600 72px/86px --fontFamily-googleInter"
+							font="600 72px/86px ‘Inter’, Arial, Helvetica, sans-serif"
 							color="#ffffff"
 							margin="0px 0px 40px 0px"
 							letter-spacing="-1.5px"
@@ -2107,7 +2107,7 @@ export default (() => {
 					{"        "}
 					<Text
 						color="#6C6B7D"
-						font="400 16px/22px --fontFamily-googleInter"
+						font="400 16px/22px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 24px 0px 0px"
 						lg-order="1"
 						sm-text-align="center"
@@ -2120,7 +2120,7 @@ export default (() => {
 					<Box lg-margin="0px 0px 30px 0px">
 						<Link
 							href="#"
-							font="400 16px/22px --fontFamily-googleInter"
+							font="400 16px/22px ‘Inter’, Arial, Helvetica, sans-serif"
 							text-decoration-line="initial"
 							color="#6C6B7D"
 							transition="color 0.2s ease 0s"
@@ -2132,7 +2132,7 @@ export default (() => {
 						</Link>
 						<Link
 							href="#"
-							font="400 16px/22px --fontFamily-googleInter"
+							font="400 16px/22px ‘Inter’, Arial, Helvetica, sans-serif"
 							text-decoration-line="initial"
 							color="#6C6B7D"
 							transition="color 0.2s ease 0s"
@@ -2143,7 +2143,7 @@ export default (() => {
 						</Link>
 						<Link
 							href="#"
-							font="400 16px/22px --fontFamily-googleInter"
+							font="400 16px/22px ‘Inter’, Arial, Helvetica, sans-serif"
 							text-decoration-line="initial"
 							color="#6C6B7D"
 							transition="color 0.2s ease 0s"
