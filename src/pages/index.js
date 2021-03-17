@@ -63,34 +63,37 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Link
 						href="#Viewers"
-						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
+						letter-spacing="1px"
 					>
 						Viewers
 					</Link>
 					<Link
 						href="#Streamers"
-						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
+						letter-spacing="1px"
 					>
 						Streamers
 					</Link>
 					<Link
 						href="#Advertisers"
-						font="450 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
 						transition="color 0.2s ease 0s"
 						hover-color="#592CF0"
+						letter-spacing="1px"
 					>
 						Advertisers
 					</Link>
@@ -110,6 +113,7 @@ export default (() => {
 						transition="background-color 0.2s ease 0s"
 						hover-background="#F0F0F5"
 						hover-color="#592CF0"
+						letter-spacing="0.3px"
 					>
 						Go to App
 					</Link>
@@ -165,6 +169,7 @@ export default (() => {
 							margin="0px 0px 10px 0px"
 							position="relative"
 							z-index="9"
+							letter-spacing="0.3px"
 						>
 							Get an invite
 						</Link>
@@ -1051,6 +1056,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 						md-margin="0px 0px 20px 0px"
+						letter-spacing="0.3px"
 					>
 						Get an invite
 					</Link>
