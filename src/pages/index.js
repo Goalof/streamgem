@@ -63,7 +63,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="center" justify-content="center" />
 					<Link
 						href="#Viewers"
-						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 18px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -75,7 +75,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#Streamers"
-						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 18px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -87,7 +87,7 @@ export default (() => {
 					</Link>
 					<Link
 						href="#Advertisers"
-						font="500 16px/140% ‘Inter’, Arial, Helvetica, sans-serif"
+						font="500 18px/140% ‘Inter’, Arial, Helvetica, sans-serif"
 						text-decoration-line="initial"
 						color="#F0F0F5"
 						margin="0px 20px 0px 20px"
@@ -104,7 +104,7 @@ export default (() => {
 					{"        "}
 					<Link
 						href="#"
-						font="450 16px/22.4px ‘Inter’, Arial, Helvetica, sans-serif"
+						font="450 18px/22.4px ‘Inter’, Arial, Helvetica, sans-serif"
 						color="#F0F0F5"
 						text-decoration-line="initial"
 						padding="9px 24px 8px 24px"
@@ -114,6 +114,7 @@ export default (() => {
 						hover-background="#F0F0F5"
 						hover-color="#592CF0"
 						letter-spacing="0.3px"
+						md-font="450 18px/22.4px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Go to App
 					</Link>
@@ -133,8 +134,8 @@ export default (() => {
 							color="#ffffff"
 							font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 							margin="0px 0px 0px 0px"
-							lg-font="650 64px/60px --fontFamily-googleInter"
-							md-font="650 50px/47px --fontFamily-googleInter"
+							lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+							md-font="650 50px/47px ‘Inter’, Arial, Helvetica, sans-serif"
 						>
 							Full stream monetization
 						</Text>
@@ -150,7 +151,7 @@ export default (() => {
 							position="relative"
 							z-index="9"
 						/>
-						<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="0px 0px 36px 0px" md-font="400 18px/25px --fontFamily-googleInter">
+						<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="0px 0px 36px 0px" md-font="400 18px/25px ‘Inter’, Arial, Helvetica, sans-serif">
 							Make money streaming. Improve the quality and interactivity{" "}
 							<br />
 							of your streams with widgets, polls and other features
@@ -436,8 +437,8 @@ export default (() => {
 						color="#ffffff"
 						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="650 64px/60px --fontFamily-googleInter"
-						md-font="650 48px/45px --fontFamily-googleInter"
+						lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="650 48px/45px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Join, it's easy{" "}
 					</Text>
@@ -466,7 +467,7 @@ export default (() => {
 						margin="0px 0px 36px 0px"
 						position="relative"
 						z-index="9"
-						md-font="400 20px/26px --fontFamily-googleInter"
+						md-font="400 20px/26px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Set up your system in 3 steps
 					</Text>
@@ -656,7 +657,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" md-margin="0px 0px 32px 0px">
 						Register and setting
 						<br />
 						up tools
@@ -680,7 +681,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" md-margin="0px 0px 32px 0px">
 						Add a link to the stream
 						<br />
 						gem to your bs
@@ -704,7 +705,7 @@ export default (() => {
 						position="relative"
 						z-index="1"
 					/>
-					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px --fontFamily-googleInter">
+					<Text font="600 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" color="#F0F0F5" lg-font="500 18px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" md-margin="0px 0px 32px 0px">
 						You start getting your
 						<br />
 						hard-earned
@@ -730,8 +731,8 @@ export default (() => {
 						color="#ffffff"
 						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="650 64px/60px --fontFamily-googleInter"
-						md-font="650 48px/45px --fontFamily-googleInter"
+						lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="650 48px/45px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Viewers
 					</Text>
@@ -747,7 +748,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px ‘Inter’, Arial, Helvetica, sans-serif">
 						Monetize your audience
 					</Text>
 					{"            "}
@@ -784,8 +785,8 @@ export default (() => {
 							font="700 48px/57.68px ‘Inter’, Arial, Helvetica, sans-serif"
 							color="#ffffff"
 							margin="0px 0px 32px 0px"
-							lg-font="700 32px/38px --fontFamily-googleInter"
-							md-font="700 23px/27px --fontFamily-googleInter"
+							lg-font="700 32px/38px ‘Inter’, Arial, Helvetica, sans-serif"
+							md-font="700 23px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						>
 							The most favorable conditions
 							<br />
@@ -795,7 +796,7 @@ export default (() => {
 							color="#6C6B7D"
 							font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif"
 							margin="0px 0px 0px 0px"
-							md-font="400 18px/23px --fontFamily-googleInter"
+							md-font="400 18px/23px ‘Inter’, Arial, Helvetica, sans-serif"
 							sm-font="400 18px/30px --fontFamily-googleInter"
 						>
 							Withdrawal of funds from{"    "}
@@ -951,7 +952,7 @@ export default (() => {
 						justify-content="flex-start"
 						flex-direction="column"
 						padding="60px 10px 0px 0px"
-						lg-padding="0px 10px 0px 10px"
+						lg-padding="0px 10px 0px 30px"
 						md-align-items="center"
 						md-justify-content="center"
 					/>
@@ -968,8 +969,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						sm-text-align="center"
 					>
 						Display the stream
@@ -978,8 +979,8 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
@@ -1023,8 +1024,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						sm-text-align="center"
 						md-text-align="center"
 					>
@@ -1034,8 +1035,8 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 50px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
@@ -1269,8 +1270,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 					>
 						Race with your admirers
@@ -1279,8 +1280,8 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 						md-margin="0px 0px 20px 0px"
 					>
@@ -1307,8 +1308,8 @@ export default (() => {
 						color="#ffffff"
 						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="650 64px/60px --fontFamily-googleInter"
-						md-font="650 48px/45px --fontFamily-googleInter"
+						lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="650 48px/45px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Streamers
 					</Text>
@@ -1324,7 +1325,7 @@ export default (() => {
 						position="relative"
 						z-index="9"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px ‘Inter’, Arial, Helvetica, sans-serif">
 						Monetize relationships with other streamers
 					</Text>
 					{"            "}
@@ -1504,8 +1505,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 					>
 						Teams
@@ -1514,8 +1515,8 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 						md-margin="0px 0px 30px 0px"
 					>
@@ -1549,8 +1550,8 @@ export default (() => {
 						color="#ffffff"
 						font="650 72px/67.68px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="650 64px/60px --fontFamily-googleInter"
-						md-font="650 48px/45px --fontFamily-googleInter"
+						lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="650 48px/45px ‘Inter’, Arial, Helvetica, sans-serif"
 					>
 						Advertisers
 					</Text>
@@ -1568,7 +1569,7 @@ export default (() => {
 						md-align-items="center"
 						md-justify-content="center"
 					/>
-					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px --fontFamily-googleInter">
+					<Text color="#6C6B7D" font="400 22px/30.8px ‘Inter’, Arial, Helvetica, sans-serif" margin="4px 0px 24px 0px" md-font="400 18px/23px ‘Inter’, Arial, Helvetica, sans-serif">
 						Our system allows you to automate interactions with advertisers,
 						<br />
 						so its size is not important.
@@ -1617,8 +1618,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 					>
 						Show advertisers banner
@@ -1627,9 +1628,9 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 50px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
 						lg-margin="0px 0px 0px 0px"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-margin="0px 0px 30px 0px"
 						md-text-align="center"
 					>
@@ -1912,8 +1913,8 @@ export default (() => {
 						color="#ffffff"
 						font="500 48px/48px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 24px 0px"
-						lg-font="500 40px/40px --fontFamily-googleInter"
-						md-font="500 36px/36px --fontFamily-googleInter"
+						lg-font="500 40px/40px ‘Inter’, Arial, Helvetica, sans-serif"
+						md-font="500 36px/36px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
 					>
 						Fulfill advertiser orders
@@ -1922,9 +1923,9 @@ export default (() => {
 						color="#6C6B7D"
 						font="400 20px/28px ‘Inter’, Arial, Helvetica, sans-serif"
 						margin="0px 0px 0px 0px"
-						lg-font="400 18px/24px --fontFamily-googleInter"
+						lg-font="400 18px/24px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-text-align="center"
-						md-font="400 20px/27px --fontFamily-googleInter"
+						md-font="400 20px/27px ‘Inter’, Arial, Helvetica, sans-serif"
 						md-margin="0px 0px 60px 0px"
 					>
 						Choose orders of interest to you, follow the instructions and get rewards.
@@ -2010,8 +2011,8 @@ export default (() => {
 							color="#ffffff"
 							margin="0px 0px 40px 0px"
 							letter-spacing="-1.5px"
-							lg-font="650 64px/60px --fontFamily-googleInter"
-							md-font="650 50px/60px --fontFamily-googleInter"
+							lg-font="650 64px/60px ‘Inter’, Arial, Helvetica, sans-serif"
+							md-font="650 50px/60px ‘Inter’, Arial, Helvetica, sans-serif"
 						>
 							Join alpha testing
 						</Text>
@@ -2092,6 +2093,7 @@ export default (() => {
 						lg-width="90%"
 						width="817px"
 						height="316px"
+						lg-height="auto"
 					/>
 				</StackItem>
 				{"    "}
