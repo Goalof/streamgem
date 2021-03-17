@@ -43,7 +43,7 @@ export default (() => {
 		</Link>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"603e751a50a2640bdf3f75d3"}>
-				{"@import url(\"/fonts/stylesheet.css\")\n@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n:focus {\n    outline: none;\n}\n@font-face {\n  font-display: auto !important;\n}"}
+				{"@import url(\"/stylesheet.css\")\n@media (min-width: 1200px) {\n* {\n    scroll-behavior: smooth;\n    }\n    }\n:focus {\n    outline: none;\n}\n@font-face {\n  font-display: auto !important;\n}"}
 			</style>
 		</RawHtml>
 	</Theme>;
